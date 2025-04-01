@@ -10,7 +10,7 @@
         {
             "id": "1",
             "title": "Github",
-            "link": "https://github.com/zahar-king"
+            "link": "https://github.com/zaharking"
         },
         {
             "id": "2",
@@ -26,8 +26,8 @@
     "projects": [
         {
             "id": "1",
-            "title": "CoHabit",
-            "description": "Complete brand identity design for a tech startup",
+            "title": "CoHabit: Davis Design Fest 24hr Sprint",
+            "description": "CoHabit is an social connections app driven to aid students in their search for the ideal first-time housemate. By matching students based on shared lifestyle preferences, interests, and personalities, CoHabit ensures a seamless move-in experience and provides continued support, every step of the way.",
             "imageSrc": "/images/project1/CoHabit Mockup.png",
             "url": "",
             "role": "Lead Designer",
@@ -36,39 +36,30 @@
                 "Adobe Illustrator",
                 "Photoshop"
             ],
-            "explanation": "Created a comprehensive brand identity system including logo design, color palette, typography, and brand guidelines. The project involved extensive research into the client's target market and competitors to ensure the design stood out while maintaining brand relevance.",
-            "challenges": "Balancing modern tech aesthetics with traditional industry expectations",
-            "results": "Increased brand recognition by 40% and improved customer engagement",
-            "additionalImages": [
-                {
-                    "url": "/images/project1/1.jpg",
-                    "caption": "Brand Logo Design"
-                },
-                {
-                    "url": "/images/project1/2.jpg",
-                    "caption": "Color Palette and Typography"
-                },
-                {
-                    "url": "/images/project1/3.jpg",
-                    "caption": "Brand Guidelines"
-                }
-            ]
+            "problemStatement": "\n75% of students struggle to find affordable housing options\n40% of students struggle to find compatible housemates\n91% of students struggle to find housing in a preferable location\nAs these ongoing issues often lead to stress and conflicts in the home, many students reported turning to Facebook groups or word-of-mouth to search for new housing options. However, these options are often unpredictable and unreliable due to lack of transparency in budgets, lifestyle habits, and housing preferences. Over time, living with incompatible housemates can negatively impact mental health and academic success, thus jeopardizing the wellbeing of thousands, lease after lease.",
+            "solutionStatement": "\nA platform driven to connect users based on similarities in lifestyle, personality, and interests rather than physical appearances offers every user a chance at finding their ideal match. Through phone and university email authentication, students can safely browse their matches without risk of scams or impersonators.",
+            "designProcessOverview": "\nEmpathize > Conduct Research, Interviews, and Surveys to understand student needs\nDefine > User Personas and Competitive Analysis to develop framework\nIdeate > User Flow and Low Fidelity Wireframes to simulate user experience\nDesign > Visual Design and Prototypes to simulate user interface\nTest > Usability Check to brainstorm improvements",
+            "empathizePhase": "[[Image: CoHabit Project Timeline.png]]\nInterview Questions:\nWhat year are you?\nWhere do you currently live?\nAre you currently looking for a place to live?\nWhat's your biggest challenge when searching for housing? (Select all that apply)\nHave you had difficulties with housemates in the past?\nWhat factors are most important in an ideal housemate? (Select your top 3)\nWhat tools or features would make it easier to find student housing? (Select all that apply)\nWhat are your top location preferences when choosing housing? (Select all that apply)\nWhat is the biggest frustration you've had with student housing/roommates? (Open-ended response)\n\n[[Image: CoHabit Survey Responses.png]]\n\nKey Insights:\nHigh Value of Lifestyle Maintenance: Participants value their housemates sharing similarities in cleanliness, noise levels, and sleep schedules over compatibility in other areas, such as social life.\nPrioritization of Personal Expectations: Many participants tend to move in with people based on their own personal needs before knowing whether or not their lifestyles are compatible.\nChallenges in Knowledge of Housemates: Many participants cannot confidently predict what their lifestyle will look like upon moving in with new housemates.\nDesire for a Comprehensive Platform: Participants seek a single platform that can seamlessly integrate a wide variety of tools to meet their personal, financial, and social needs.",
+            "definePhase": "\n[[Image: CoHabit Competitive Analysis.png]]\n[[Image: User Persona 1.png]]\n[[Image: User Persona 2.png]]\n[[Image: User Persona 3.png]]\n[[Image: Information Architecture.png]]\nThis information architecture provides a visual framework for organizing the platform's content, ensuring that users can easily navigate, access, and interact with the features that are crucial for their housing search experience. However, please note that the actual architecture of the app may have been further refined based on our user testing findings.",
+            "ideatePhase": "\n[[Image: CoHabit Design System.png]]",
+            "designPhase": "\n[[Image: LoFi Sketches.png]]\n[[Image: CoHabit Midfi Mockups.png]]\n[[Image: CoHabit Hifi Mockups.png]]",
+            "testingPhase": "Main Takeaways and Future Improvements:\nExpanded Customization: Offer more room design options & customization tools to let users truly reflect their style.\nAI-Driven Matchmaking: Implement AI to refine roommate matches based on deeper personality and lifestyle data.\nMore Location Filters: Add even more location preferences, like proximity to specific study spots, gyms, and social hubs.\nImproved Chat Features: Integrate more engaging chat tools—think group discussions and video introductions!\nEnhanced Subleasing & Marketplace: Create a robust marketplace for students to buy, sell, or swap furniture & essentials for a smoother transition."
         },
         {
             "id": "2",
-            "title": "UI/UX Design System",
+            "title": "Pantry Zine",
             "description": "Zine for the UC Davis Pantry",
             "imageSrc": "/images/project2/Front Cover.jpeg",
             "url": "",
-            "role": "UI/UX Designer",
+            "role": "Designer",
             "techStack": [
                 "Figma",
-                "Adobe XD",
-                "Principle"
+                "Adobe Illustrator",
+                "Adobe Photoshop"
             ],
-            "explanation": "Developed a comprehensive design system for a fintech mobile app, including component library, interaction patterns, and accessibility guidelines. The system was created to ensure consistency across the app while maintaining flexibility for future updates.",
-            "challenges": "Creating a scalable system that worked across different device sizes and platforms",
-            "results": "Reduced design inconsistencies by 60% and improved development efficiency",
+            "explanation": "Zine for the UC Davis Pantry",
+            "challenges": "",
+            "results": "",
             "additionalImages": [
                 {
                     "url": "/images/project2/Front Page.jpeg",
@@ -86,19 +77,19 @@
         },
         {
             "id": "3",
-            "title": "Social Media Campaign",
-            "description": "Visual content for social media",
+            "title": "Craigslist ReDesign",
+            "description": "",
             "imageSrc": "/images/project3/hero.jpg",
             "url": "",
-            "role": "Creative Director",
+            "role": "Designer",
             "techStack": [
                 "Photoshop",
                 "Illustrator",
                 "After Effects"
             ],
-            "explanation": "Led the creative direction for a 3-month social media campaign, creating engaging visual content that resonated with the target audience. The campaign included static posts, animated content, and interactive stories.",
-            "challenges": "Maintaining brand consistency while creating diverse content",
-            "results": "Achieved 200% increase in social media engagement",
+            "explanation": "Redesigned Craigslist to be more user-friendly and visually appealing.",
+            "challenges": "",
+            "results": "",
             "additionalImages": [
                 {
                     "url": "/images/project3/1.jpg",
@@ -180,22 +171,22 @@
         {
             "id": "1",
             "title": "Art Direction",
-            "description": "We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."
+            "description": "I help with the creation and development of online advertising ideas, with particular focus on visual appearance."
         },
         {
             "id": "2",
             "title": "Branding",
-            "description": "We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."
+            "description": "I design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."
         },
         {
             "id": "3",
             "title": "Web Design",
-            "description": "We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."
+            "description": "I build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."
         },
         {
             "id": "4",
             "title": "3D Design",
-            "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
+            "description": "I combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
         }
     ],
     "aboutpara": "Hello, I'm Zahar. I'm a marketing and product designer with a deep commitment to empowering communities, amplifying voices, and creating impactful solutions through a detail-oriented approach.",
@@ -221,7 +212,7 @@
         "education": {
             "universityName": "University of California, Davis",
             "universityDate": "2021-2025",
-            "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+            "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
         },
         "languages": [
             "Javascript",
