@@ -1,1 +1,244 @@
-{"name":"Zahar King","headerTaglineOne":"Hello 👋","headerTaglineTwo":"I'm Zahar -","headerTaglineThree":"a passionate Graphic Designer","showCursor":false,"darkMode":true,"showResume":true,"socials":[{"id":"1","title":"Github","link":"https://github.com/chetanverma16"},{"id":"2","title":"LinkedIn","link":"https://www.linkedin.com/in/chetanverma7/"},{"id":"5","title":"Email","link":"mailto:hello@chetanverma.com"}],"projects":[{"id":"1","title":"CoHabit","description":"Complete brand identity design for a tech startup","imageSrc":"/images/project1/CoHabit Mockup.png","url":"http://chetanverma.com/","role":"Lead Designer","techStack":["Figma","Adobe Illustrator","Photoshop"],"explanation":"Created a comprehensive brand identity system including logo design, color palette, typography, and brand guidelines. The project involved extensive research into the client's target market and competitors to ensure the design stood out while maintaining brand relevance.","challenges":"Balancing modern tech aesthetics with traditional industry expectations","results":"Increased brand recognition by 40% and improved customer engagement","additionalImages":[{"url":"/images/project1/1.jpg","caption":"Brand Logo Design"},{"url":"/images/project1/2.jpg","caption":"Color Palette and Typography"},{"url":"/images/project1/3.jpg","caption":"Brand Guidelines"}]},{"id":"2","title":"UI/UX Design System","description":"Zine for the UC Davis Pantry","imageSrc":"/images/project2/Front Cover.jpeg","url":"http://chetanverma.com/","role":"UI/UX Designer","techStack":["Figma","Adobe XD","Principle"],"explanation":"Developed a comprehensive design system for a fintech mobile app, including component library, interaction patterns, and accessibility guidelines. The system was created to ensure consistency across the app while maintaining flexibility for future updates.","challenges":"Creating a scalable system that worked across different device sizes and platforms","results":"Reduced design inconsistencies by 60% and improved development efficiency","additionalImages":[{"url":"/images/project2/Front Page.jpeg","caption":"Component Library"},{"url":"/images/project2/image.png","caption":"Design System Documentation"},{"url":"/images/project2/3.jpg","caption":"Mobile App Screens"}]},{"id":"3","title":"Social Media Campaign","description":"Visual content for social media","imageSrc":"/images/project3/hero.jpg","url":"http://chetanverma.com/","role":"Creative Director","techStack":["Photoshop","Illustrator","After Effects"],"explanation":"Led the creative direction for a 3-month social media campaign, creating engaging visual content that resonated with the target audience. The campaign included static posts, animated content, and interactive stories.","challenges":"Maintaining brand consistency while creating diverse content","results":"Achieved 200% increase in social media engagement","additionalImages":[{"url":"/images/project3/1.jpg","caption":"Campaign Visual Style"},{"url":"/images/project3/2.jpg","caption":"Social Media Posts"},{"url":"/images/project3/3.jpg","caption":"Campaign Results"}]},{"id":"4","title":"Product Packaging Design","description":"Sustainable packaging design","imageSrc":"/images/project4/hero.jpg","url":"http://chetanverma.com/","role":"Packaging Designer","techStack":["3D Modeling","Adobe Creative Suite"],"explanation":"Designed eco-friendly packaging for a sustainable product line, focusing on minimal waste and recyclable materials. The design process included material research, 3D modeling, and prototype testing.","challenges":"Balancing sustainability with cost-effectiveness","results":"Reduced packaging waste by 45% while maintaining product protection","additionalImages":[{"url":"/images/project4/1.jpg","caption":"Packaging Design Process"},{"url":"/images/project4/2.jpg","caption":"Material Studies"},{"url":"/images/project4/3.jpg","caption":"Final Product"}]},{"id":"5","title":"Website Redesign","description":"E-commerce website redesign","imageSrc":"https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/","role":"Lead Designer","techStack":["Figma","Adobe XD","HTML/CSS"],"explanation":"Led the complete redesign of an e-commerce website, focusing on improving user experience and conversion rates. The project included user research, wireframing, and high-fidelity design creation.","challenges":"Optimizing for both desktop and mobile experiences","results":"Increased conversion rate by 35% and improved user engagement"},{"id":"6","title":"Print Campaign","description":"Magazine advertising campaign","imageSrc":"https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/","role":"Art Director","techStack":["InDesign","Photoshop","Illustrator"],"explanation":"Created a series of print advertisements for a luxury magazine campaign. The project involved concept development, photography direction, and layout design for multiple ad formats.","challenges":"Maintaining visual impact across different print formats","results":"Received industry recognition and increased brand prestige"}],"services":[{"id":"1","title":"Art Direction","description":"We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."},{"id":"2","title":"Branding","description":"We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."},{"id":"3","title":"Web Design","description":"We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."},{"id":"4","title":"3D Design","description":"We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."}],"aboutpara":"Hello, I'm Zahar. I'm a marketing and product designer with a deep commitment to empowering communities, amplifying voices, and creating impactful solutions through a detail-oriented approach.","resume":{"tagline":"👋  I'm a software engineer, product designer.","description":"I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.","experiences":[{"id":"1","dates":"March 2022 - Present","type":"Full Time","position":"Frontend Engineer at X","bullets":"Bullet One, Bullet Two"},{"id":"d495c23b-4f65-479a-9b8a-cfbc1c089725","dates":"July 2020 - March 2022","type":"Full Time","position":"Frontend Engineer at X","bullets":"Worked on the frontend of a React application, Worked on the frontend of a React application"}],"education":{"universityName":"University of California, Davis","universityDate":"2021-2025","universityPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"},"languages":["Javascript","HTML5","CSS","Python","Go"],"frameworks":["React","Typescript","NodeJs"],"others":["Figma","AdobeXD","AWS"]}}
+{
+    "name": "Zahar King",
+    "headerTaglineOne": "Hello 👋",
+    "headerTaglineTwo": "I'm Zahar -",
+    "headerTaglineThree": "a passionate Graphic Designer",
+    "showCursor": false,
+    "darkMode": true,
+    "showResume": true,
+    "socials": [
+        {
+            "id": "1",
+            "title": "Github",
+            "link": "https://github.com/zahar-king"
+        },
+        {
+            "id": "2",
+            "title": "LinkedIn",
+            "link": "https://www.linkedin.com/in/zahar-king/"
+        },
+        {
+            "id": "5",
+            "title": "Email",
+            "link": "mailto:zahmoki@gmail.com"
+        }
+    ],
+    "projects": [
+        {
+            "id": "1",
+            "title": "CoHabit",
+            "description": "Complete brand identity design for a tech startup",
+            "imageSrc": "/images/project1/CoHabit Mockup.png",
+            "url": "",
+            "role": "Lead Designer",
+            "techStack": [
+                "Figma",
+                "Adobe Illustrator",
+                "Photoshop"
+            ],
+            "explanation": "Created a comprehensive brand identity system including logo design, color palette, typography, and brand guidelines. The project involved extensive research into the client's target market and competitors to ensure the design stood out while maintaining brand relevance.",
+            "challenges": "Balancing modern tech aesthetics with traditional industry expectations",
+            "results": "Increased brand recognition by 40% and improved customer engagement",
+            "additionalImages": [
+                {
+                    "url": "/images/project1/1.jpg",
+                    "caption": "Brand Logo Design"
+                },
+                {
+                    "url": "/images/project1/2.jpg",
+                    "caption": "Color Palette and Typography"
+                },
+                {
+                    "url": "/images/project1/3.jpg",
+                    "caption": "Brand Guidelines"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "title": "UI/UX Design System",
+            "description": "Zine for the UC Davis Pantry",
+            "imageSrc": "/images/project2/Front Cover.jpeg",
+            "url": "",
+            "role": "UI/UX Designer",
+            "techStack": [
+                "Figma",
+                "Adobe XD",
+                "Principle"
+            ],
+            "explanation": "Developed a comprehensive design system for a fintech mobile app, including component library, interaction patterns, and accessibility guidelines. The system was created to ensure consistency across the app while maintaining flexibility for future updates.",
+            "challenges": "Creating a scalable system that worked across different device sizes and platforms",
+            "results": "Reduced design inconsistencies by 60% and improved development efficiency",
+            "additionalImages": [
+                {
+                    "url": "/images/project2/Front Page.jpeg",
+                    "caption": "Component Library"
+                },
+                {
+                    "url": "/images/project2/image.png",
+                    "caption": "Design System Documentation"
+                },
+                {
+                    "url": "/images/project2/3.jpg",
+                    "caption": "Mobile App Screens"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "title": "Social Media Campaign",
+            "description": "Visual content for social media",
+            "imageSrc": "/images/project3/hero.jpg",
+            "url": "",
+            "role": "Creative Director",
+            "techStack": [
+                "Photoshop",
+                "Illustrator",
+                "After Effects"
+            ],
+            "explanation": "Led the creative direction for a 3-month social media campaign, creating engaging visual content that resonated with the target audience. The campaign included static posts, animated content, and interactive stories.",
+            "challenges": "Maintaining brand consistency while creating diverse content",
+            "results": "Achieved 200% increase in social media engagement",
+            "additionalImages": [
+                {
+                    "url": "/images/project3/1.jpg",
+                    "caption": "Campaign Visual Style"
+                },
+                {
+                    "url": "/images/project3/2.jpg",
+                    "caption": "Social Media Posts"
+                },
+                {
+                    "url": "/images/project3/3.jpg",
+                    "caption": "Campaign Results"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "title": "Product Packaging Design",
+            "description": "Sustainable packaging design",
+            "imageSrc": "/images/project4/hero.jpg",
+            "url": "",
+            "role": "Packaging Designer",
+            "techStack": [
+                "3D Modeling",
+                "Adobe Creative Suite"
+            ],
+            "explanation": "Designed eco-friendly packaging for a sustainable product line, focusing on minimal waste and recyclable materials. The design process included material research, 3D modeling, and prototype testing.",
+            "challenges": "Balancing sustainability with cost-effectiveness",
+            "results": "Reduced packaging waste by 45% while maintaining product protection",
+            "additionalImages": [
+                {
+                    "url": "/images/project4/1.jpg",
+                    "caption": "Packaging Design Process"
+                },
+                {
+                    "url": "/images/project4/2.jpg",
+                    "caption": "Material Studies"
+                },
+                {
+                    "url": "/images/project4/3.jpg",
+                    "caption": "Final Product"
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "title": "Website Redesign",
+            "description": "E-commerce website redesign",
+            "imageSrc": "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+            "url": "",
+            "role": "Lead Designer",
+            "techStack": [
+                "Figma",
+                "Adobe XD",
+                "HTML/CSS"
+            ],
+            "explanation": "Led the complete redesign of an e-commerce website, focusing on improving user experience and conversion rates. The project included user research, wireframing, and high-fidelity design creation.",
+            "challenges": "Optimizing for both desktop and mobile experiences",
+            "results": "Increased conversion rate by 35% and improved user engagement"
+        },
+        {
+            "id": "6",
+            "title": "Print Campaign",
+            "description": "Magazine advertising campaign",
+            "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+            "url": "",
+            "role": "Art Director",
+            "techStack": [
+                "InDesign",
+                "Photoshop",
+                "Illustrator"
+            ],
+            "explanation": "Created a series of print advertisements for a luxury magazine campaign. The project involved concept development, photography direction, and layout design for multiple ad formats.",
+            "challenges": "Maintaining visual impact across different print formats",
+            "results": "Received industry recognition and increased brand prestige"
+        }
+    ],
+    "services": [
+        {
+            "id": "1",
+            "title": "Art Direction",
+            "description": "We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."
+        },
+        {
+            "id": "2",
+            "title": "Branding",
+            "description": "We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."
+        },
+        {
+            "id": "3",
+            "title": "Web Design",
+            "description": "We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."
+        },
+        {
+            "id": "4",
+            "title": "3D Design",
+            "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
+        }
+    ],
+    "aboutpara": "Hello, I'm Zahar. I'm a marketing and product designer with a deep commitment to empowering communities, amplifying voices, and creating impactful solutions through a detail-oriented approach.",
+    "resume": {
+        "tagline": "👋  I'm a software engineer, product designer.",
+        "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
+        "experiences": [
+            {
+                "id": "1",
+                "dates": "March 2022 - Present",
+                "type": "Full Time",
+                "position": "Frontend Engineer at X",
+                "bullets": "Bullet One, Bullet Two"
+            },
+            {
+                "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
+                "dates": "July 2020 - March 2022",
+                "type": "Full Time",
+                "position": "Frontend Engineer at X",
+                "bullets": "Worked on the frontend of a React application, Worked on the frontend of a React application"
+            }
+        ],
+        "education": {
+            "universityName": "University of California, Davis",
+            "universityDate": "2021-2025",
+            "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+        },
+        "languages": [
+            "Javascript",
+            "HTML5",
+            "CSS",
+            "Python",
+            "Go"
+        ],
+        "frameworks": [
+            "React",
+            "Typescript",
+            "NodeJs"
+        ],
+        "others": [
+            "Figma",
+            "AdobeXD",
+            "AWS"
+        ]
+    }
+}
