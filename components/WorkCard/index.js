@@ -1,7 +1,10 @@
 import React from "react";
 import Link from "next/link";
 
-const WorkCard = ({ img, name, description, id, role, techStack, explanation }) => {
+const WorkCard = ({ img, workCardImageSrc, name, description, id, role, techStack, explanation }) => {
+  // Use workCardImageSrc if available, otherwise fallback to img (imageSrc)
+  const imageToUse = workCardImageSrc || img;
+  
   return (
     <Link href={`/projects/${id}`}>
       <div
@@ -10,11 +13,11 @@ const WorkCard = ({ img, name, description, id, role, techStack, explanation }) 
         <div
           className="relative rounded-lg overflow-hidden transition-all ease-out duration-300"
         >
-          <div className="aspect-[4/3] w-full">
+          <div className="aspect-square w-full">
             <img
               alt={name}
               className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
-              src={img}
+              src={imageToUse}
             />
           </div>
           <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300" />
@@ -32,7 +35,7 @@ const WorkCard = ({ img, name, description, id, role, techStack, explanation }) 
         )}
         {techStack && (
           <div className="mt-2">
-            <p className="text-sm font-medium text-gray-700 dark:text-gray-300">Tech Stack:</p>
+            <p className="text-sm font-medium text-gray-700 dark:text-gray-300">Skills & Tools:</p>
             <div className="flex flex-wrap gap-2 mt-1">
               {techStack.map((tech, index) => (
                 <span key={index} className="px-2 py-1 text-sm bg-gray-100 dark:bg-gray-800 dark:text-white rounded">

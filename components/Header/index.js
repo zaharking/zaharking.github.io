@@ -27,7 +27,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll }) => {
                 onClick={() => router.push("/")}
                 className="font-medium p-2 laptop:p-0 link"
               >
-                {name}.
+                {name}
               </h1>
 
               <div className="flex items-center">
@@ -99,7 +99,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll }) => {
           onClick={() => router.push("/")}
           className="font-medium cursor-pointer mob:p-2 laptop:p-0"
         >
-          {name}.
+          {name}
         </h1>
         <div className="flex">
           <Button onClick={handleWorkScroll}>Work</Button>

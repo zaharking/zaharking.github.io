@@ -131,6 +131,7 @@ const Edit = () => {
             type: "Full Time",
             position: "Frontend Engineer at X",
             bullets: ["Worked on the frontend of a React application"],
+            location: "San Francisco, CA"
           },
         ],
       },
@@ -639,18 +640,77 @@ const Edit = () => {
                   <div className="mt-2 flex">
                     <label className="w-1/5 text-lg opacity-50">Bullets</label>
                     <div className="w-4/5 ml-10 flex flex-col">
-                      <input
-                        value={experiences.bullets}
-                        onChange={(e) =>
-                          handleEditExperiences(index, {
-                            ...experiences,
-                            bullets: e.target.value,
-                          })
-                        }
-                        placeholder="Bullet One, Bullet Two, Bullet Three"
-                        className="p-2 rounded-md shadow-lg border-2"
-                        type="text"
-                      ></input>
+                      {Array.isArray(experiences.bullets) ? (
+                        <>
+                          {experiences.bullets.map((bullet, bulletIndex) => (
+                            <div key={bulletIndex} className="flex mb-2">
+                              <input
+                                value={bullet}
+                                onChange={(e) => {
+                                  const newBullets = [...experiences.bullets];
+                                  newBullets[bulletIndex] = e.target.value;
+                                  handleEditExperiences(index, {
+                                    ...experiences,
+                                    bullets: newBullets,
+                                  });
+                                }}
+                                className="w-full p-2 rounded-md shadow-lg border-2"
+                                type="text"
+                              />
+                              <Button
+                                onClick={() => {
+                                  const newBullets = experiences.bullets.filter(
+                                    (_, i) => i !== bulletIndex
+                                  );
+                                  handleEditExperiences(index, {
+                                    ...experiences,
+                                    bullets: newBullets,
+                                  });
+                                }}
+                              >
+                                Remove
+                              </Button>
+                            </div>
+                          ))}
+                          <Button
+                            type="primary"
+                            onClick={() => {
+                              handleEditExperiences(index, {
+                                ...experiences,
+                                bullets: [...experiences.bullets, ""],
+                              });
+                            }}
+                          >
+                            Add Bullet +
+                          </Button>
+                        </>
+                      ) : (
+                        <div className="flex items-center">
+                          <input
+                            value={experiences.bullets}
+                            onChange={(e) =>
+                              handleEditExperiences(index, {
+                                ...experiences,
+                                bullets: e.target.value,
+                              })
+                            }
+                            placeholder="Bullet One, Bullet Two, Bullet Three"
+                            className="w-full p-2 rounded-md shadow-lg border-2"
+                            type="text"
+                          />
+                          <Button
+                            type="primary"
+                            onClick={() => {
+                              handleEditExperiences(index, {
+                                ...experiences,
+                                bullets: experiences.bullets.split(",").map(b => b.trim()),
+                              });
+                            }}
+                          >
+                            Convert to List
+                          </Button>
+                        </div>
+                      )}
                     </div>
                   </div>
                 </div>

@@ -27,8 +27,9 @@
         {
             "id": "1",
             "title": "CoHabit: Davis Design Fest 24hr Sprint",
-            "description": "CoHabit is an social connections app driven to aid students in their search for the ideal first-time housemate. By matching students based on shared lifestyle preferences, interests, and personalities, CoHabit ensures a seamless move-in experience and provides continued support, every step of the way.",
+            "description": "CoHabit is an social connections app driven to aid students in their search for the ideal first-time housemate.",
             "imageSrc": "/images/project1/CoHabit Mockup.png",
+            "workCardImageSrc": "/images/project1/CoHabit Mockup Square.png",
             "url": "",
             "role": "Lead Designer",
             "techStack": [
@@ -36,135 +37,406 @@
                 "Adobe Illustrator",
                 "Photoshop"
             ],
+            "explanation": "Designed a user-centered housing app that helps students find compatible housemates based on lifestyle, interests, and preferences. The project was developed during a 24-hour design sprint and includes comprehensive research, user flows, and high-fidelity prototypes.",
+            "challenges": "Delivering a comprehensive housing solution within a 24-hour timeframe while addressing complex matching criteria and ensuring a user-friendly interface that meets diverse student needs.",
+            "results": "Created a functional prototype that successfully addresses student housing pain points with an intuitive matching system and security features. The project won recognition for its user-centered approach and practical implementation.",
             "problemStatement": "\n75% of students struggle to find affordable housing options\n40% of students struggle to find compatible housemates\n91% of students struggle to find housing in a preferable location\nAs these ongoing issues often lead to stress and conflicts in the home, many students reported turning to Facebook groups or word-of-mouth to search for new housing options. However, these options are often unpredictable and unreliable due to lack of transparency in budgets, lifestyle habits, and housing preferences. Over time, living with incompatible housemates can negatively impact mental health and academic success, thus jeopardizing the wellbeing of thousands, lease after lease.",
             "solutionStatement": "\nA platform driven to connect users based on similarities in lifestyle, personality, and interests rather than physical appearances offers every user a chance at finding their ideal match. Through phone and university email authentication, students can safely browse their matches without risk of scams or impersonators.",
             "designProcessOverview": "\nEmpathize > Conduct Research, Interviews, and Surveys to understand student needs\nDefine > User Personas and Competitive Analysis to develop framework\nIdeate > User Flow and Low Fidelity Wireframes to simulate user experience\nDesign > Visual Design and Prototypes to simulate user interface\nTest > Usability Check to brainstorm improvements",
-            "empathizePhase": "[[Image: CoHabit Project Timeline.png]]\nInterview Questions:\nWhat year are you?\nWhere do you currently live?\nAre you currently looking for a place to live?\nWhat's your biggest challenge when searching for housing? (Select all that apply)\nHave you had difficulties with housemates in the past?\nWhat factors are most important in an ideal housemate? (Select your top 3)\nWhat tools or features would make it easier to find student housing? (Select all that apply)\nWhat are your top location preferences when choosing housing? (Select all that apply)\nWhat is the biggest frustration you've had with student housing/roommates? (Open-ended response)\n\n[[Image: CoHabit Survey Responses.png]]\n\nKey Insights:\nHigh Value of Lifestyle Maintenance: Participants value their housemates sharing similarities in cleanliness, noise levels, and sleep schedules over compatibility in other areas, such as social life.\nPrioritization of Personal Expectations: Many participants tend to move in with people based on their own personal needs before knowing whether or not their lifestyles are compatible.\nChallenges in Knowledge of Housemates: Many participants cannot confidently predict what their lifestyle will look like upon moving in with new housemates.\nDesire for a Comprehensive Platform: Participants seek a single platform that can seamlessly integrate a wide variety of tools to meet their personal, financial, and social needs.",
-            "definePhase": "\n[[Image: CoHabit Competitive Analysis.png]]\n[[Image: User Persona 1.png]]\n[[Image: User Persona 2.png]]\n[[Image: User Persona 3.png]]\n[[Image: Information Architecture.png]]\nThis information architecture provides a visual framework for organizing the platform's content, ensuring that users can easily navigate, access, and interact with the features that are crucial for their housing search experience. However, please note that the actual architecture of the app may have been further refined based on our user testing findings.",
-            "ideatePhase": "\n[[Image: CoHabit Design System.png]]",
-            "designPhase": "\n[[Image: LoFi Sketches.png]]\n[[Image: CoHabit Midfi Mockups.png]]\n[[Image: CoHabit Hifi Mockups.png]]",
+            "empathizePhase": "\n![CoHabit Project Timeline](/images/project1/CoHabit Project Timeline.png)\nInterview Questions:\nWhat year are you?\nWhere do you currently live?\nAre you currently looking for a place to live?\nWhat's your biggest challenge when searching for housing? (Select all that apply)\nHave you had difficulties with housemates in the past?\nWhat factors are most important in an ideal housemate? (Select your top 3)\nWhat tools or features would make it easier to find student housing? (Select all that apply)\nWhat are your top location preferences when choosing housing? (Select all that apply)\nWhat is the biggest frustration you've had with student housing/roommates? (Open-ended response)\n\n![CoHabit Survey Responses](/images/project1/CoHabit Survey Responses.png)\n\nKey Insights:\nHigh Value of Lifestyle Maintenance: Participants value their housemates sharing similarities in cleanliness, noise levels, and sleep schedules over compatibility in other areas, such as social life.\nPrioritization of Personal Expectations: Many participants tend to move in with people based on their own personal needs before knowing whether or not their lifestyles are compatible.\nChallenges in Knowledge of Housemates: Many participants cannot confidently predict what their lifestyle will look like upon moving in with new housemates.\nDesire for a Comprehensive Platform: Participants seek a single platform that can seamlessly integrate a wide variety of tools to meet their personal, financial, and social needs.",
+            "definePhase": "\n![CoHabit Competitive Analysis](/images/project1/CoHabit Competitive Analysis.png)\n![User Persona 1](/images/project1/User Persona 1.png)\n![User Persona 2](/images/project1/User Persona 2.png)\n![User Persona 3](/images/project1/User Persona 3.png)\n![Information Architecture](/images/project1/Information Architecture.png)\nThis information architecture provides a visual framework for organizing the platform's content, ensuring that users can easily navigate, access, and interact with the features that are crucial for their housing search experience. However, please note that the actual architecture of the app may have been further refined based on our user testing findings.",
+            "ideatePhase": "\n![CoHabit Design System](/images/project1/CoHabit Design System.png)",
+            "designPhase": "\n![LoFi Sketches](/images/project1/LoFi Sketches.png)\n![CoHabit Midfi Mockups](/images/project1/CoHabit Midfi Mockups.png)\n![CoHabit Hifi Mockups](/images/project1/CoHabit Hifi Mockups.png)",
             "testingPhase": "Main Takeaways and Future Improvements:\nExpanded Customization: Offer more room design options & customization tools to let users truly reflect their style.\nAI-Driven Matchmaking: Implement AI to refine roommate matches based on deeper personality and lifestyle data.\nMore Location Filters: Add even more location preferences, like proximity to specific study spots, gyms, and social hubs.\nImproved Chat Features: Integrate more engaging chat tools—think group discussions and video introductions!\nEnhanced Subleasing & Marketplace: Create a robust marketplace for students to buy, sell, or swap furniture & essentials for a smoother transition."
         },
         {
             "id": "2",
             "title": "Pantry Zine",
-            "description": "Zine for the UC Davis Pantry",
+            "description": "A zine designed for the UC Davis Pantry to promote food security resources on campus",
             "imageSrc": "/images/project2/Front Cover.jpeg",
+            "workCardImageSrc": "/images/project2/Front Cover.jpeg",
             "url": "",
-            "role": "Designer",
+            "role": "Graphic Designer",
             "techStack": [
-                "Figma",
+                "Canva",
                 "Adobe Illustrator",
-                "Adobe Photoshop"
+                "Procreate"
             ],
-            "explanation": "Zine for the UC Davis Pantry",
-            "challenges": "",
-            "results": "",
-            "additionalImages": [
+            "explanation": "Designed a visually engaging zine for The Pantry at UC Davis to inform students about food security resources available on campus. The zine includes information about how to access free food, and additional campus support services.",
+            "challenges": "Creating an approachable, stigma-free guide to food resources that students would feel comfortable using",
+            "results": "Increased student awareness of food security resources and boosted Pantry visitor numbers",
+            "problemStatement": "Students may be familiarized with The Pantry, but they may have holes in their knowledge about what who The Pantry is meant to serve, what resources we have available, and where we are located.",
+            "solutionStatement": "The Pantry Zine is meant to be an easy to access, physical resource where patrons and volunteers can flip through this short-form content at any time. The front cover is bright, colorful, and inviting, and each page of text is interspersed with fun imagery of nutritious foods to bring a sense of comfort and care to those that suffer from food insecurity.",
+            "carouselGroups": [
                 {
-                    "url": "/images/project2/Front Page.jpeg",
-                    "caption": "Component Library"
-                },
-                {
-                    "url": "/images/project2/image.png",
-                    "caption": "Design System Documentation"
-                },
-                {
-                    "url": "/images/project2/3.jpg",
-                    "caption": "Mobile App Screens"
+                    "title": "Pantry Zine Pages",
+                    "description": "A complete walkthrough of the zine's content and design",
+                    "images": [
+                        {
+                            "url": "/images/project2/1.png",
+                            "caption": "Page 1"
+                        },
+                        {
+                            "url": "/images/project2/2.png",
+                            "caption": "Page 2-3 (Left)"
+                        },
+                        {
+                            "url": "/images/project2/3.png",
+                            "caption": "Page 2-3 (Right)"
+                        },
+                        {
+                            "url": "/images/project2/4.png",
+                            "caption": "Page 4-5 (Left)"
+                        },
+                        {
+                            "url": "/images/project2/5.png",
+                            "caption": "Page 4-5 (Right)"
+                        },
+                        {
+                            "url": "/images/project2/6.png",
+                            "caption": "Page 6-7 (Left)"
+                        },
+                        {
+                            "url": "/images/project2/7.png",
+                            "caption": "Page 6-7 (Right)"
+                        },
+                        {
+                            "url": "/images/project2/8.png",
+                            "caption": "Page 8-9 (Left)"
+                        },
+                        {
+                            "url": "/images/project2/9.png",
+                            "caption": "Page 8-9 (Right)"
+                        },
+                        {
+                            "url": "/images/project2/10.png",
+                            "caption": "Page 10-11 (Left)"
+                        },
+                        {
+                            "url": "/images/project2/11.png",
+                            "caption": "Page 10-11 (Right)"
+                        },
+                        {
+                            "url": "/images/project2/12.png",
+                            "caption": "Page 12-13 (Left)"
+                        },
+                        {
+                            "url": "/images/project2/13.png",
+                            "caption": "Page 12-13 (Right)"
+                        },
+                        {
+                            "url": "/images/project2/14.png",
+                            "caption": "Page 14-15 (Left)"
+                        },
+                        {
+                            "url": "/images/project2/15.png",
+                            "caption": "Page 14-15 (Right)"
+                        },
+                        {
+                            "url": "/images/project2/16.png",
+                            "caption": "Back Cover"
+                        }
+                    ]
                 }
             ]
         },
         {
             "id": "3",
             "title": "Craigslist ReDesign",
-            "description": "",
-            "imageSrc": "/images/project3/hero.jpg",
+            "description": "A comprehensive redesign of Craigslist focusing on improved user experience and modern design principles",
+            "imageSrc": "/images/project3/1. Title Slide.png",
+            "workCardImageSrc": "/images/project3/1. Title Slide.png",
             "url": "",
-            "role": "Designer",
+            "role": "UX/UI Designer",
             "techStack": [
-                "Photoshop",
+                "Figma", 
                 "Illustrator",
-                "After Effects"
+                "User Research",
+                "Prototyping"
             ],
-            "explanation": "Redesigned Craigslist to be more user-friendly and visually appealing.",
-            "challenges": "",
-            "results": "",
+            "explanation": "Redesigned Craigslist to address usability issues and modernize the interface while maintaining the platform's core functionality and familiarity for long-time users.",
+            "challenges": "Balancing modern design with the simplicity that made Craigslist successful, while improving navigation and trust factors in the peer-to-peer marketplace.",
+            "results": "Created a more intuitive, visually appealing design with improved category navigation, search functionality, and listing visibility.",
+            "problemStatement": "Craigslist suffers from a very outdated interface that is difficult to navigate, lacks modern design elements, and fails to meet current user expectations. These issues, combined with concerns over safety and fraud, make users hesitant to engage with the platform, leading them to prefer alternatives like Facebook Marketplace.",
+            "solutionStatement": "By maintaining the white and purple aesthetic of Craigslist, this encourages familiarity and maintains a strong contrast. In utilizing a sans serif font, this appears professional and prioritizes legibility. In addition, the bold, dark purple color of headlines and primary buttons captures the user's attention and establishes hierarchy.",
             "additionalImages": [
                 {
-                    "url": "/images/project3/1.jpg",
-                    "caption": "Campaign Visual Style"
+                    "url": "/images/project3/hero.jpg",
+                    "caption": "Project Hero Image"
                 },
                 {
-                    "url": "/images/project3/2.jpg",
-                    "caption": "Social Media Posts"
+                    "url": "/images/project3/2. Table of Contents.png",
+                    "caption": "2. Table of Contents"
                 },
                 {
-                    "url": "/images/project3/3.jpg",
-                    "caption": "Campaign Results"
+                    "url": "/images/project3/3. Timeline and Overview.png",
+                    "caption": "3. Timeline and Overview"
+                },
+                {
+                    "url": "/images/project3/4. Research Goals.png",
+                    "caption": "4. Research Goals"
+                },
+                {
+                    "url": "/images/project3/5. Surveys.png",
+                    "caption": "5. Surveys"
+                },
+                {
+                    "url": "/images/project3/6. Competitive Analysis.png",
+                    "caption": "6. Competitive Analysis"
+                },
+                {
+                    "url": "/images/project3/7. Ideation.png",
+                    "caption": "7. Ideation"
+                },
+                {
+                    "url": "/images/project3/8. Problem Statement.png",
+                    "caption": "8. Problem Statement"
+                },
+                {
+                    "url": "/images/project3/9. Solution.png",
+                    "caption": "9. Solution"
+                },
+                {
+                    "url": "/images/project3/10. Mid-Fi Goals.png",
+                    "caption": "10. Mid-Fi Goals"
+                },
+                {
+                    "url": "/images/project3/11. Mid-Fi.png",
+                    "caption": "11. Mid-Fi"
+                },
+                {
+                    "url": "/images/project3/12. User Testing Feedback.png",
+                    "caption": "12. User Testing Feedback"
+                },
+                {
+                    "url": "/images/project3/13. Hi-Fi.png",
+                    "caption": "13. Hi-Fi"
+                },
+                {
+                    "url": "/images/project3/14. Hi-Fi Prototype.png",
+                    "caption": "14. Hi-Fi Prototype"
+                },
+                {
+                    "url": "/images/project3/15. Reflections.png",
+                    "caption": "15. Reflections"
+                },
+                {
+                    "url": "/images/project3/16. Conclusion.png",
+                    "caption": "16. Conclusion"
                 }
             ]
         },
         {
             "id": "4",
-            "title": "Product Packaging Design",
-            "description": "Sustainable packaging design",
-            "imageSrc": "/images/project4/hero.jpg",
+            "title": "Type Hierarchy Case Study",
+            "description": "An exploration of typographic hierarchy and composition principles through a series of design experiments",
+            "imageSrc": "/images/project4/ZKing_Project 2-Composition_V26.jpg",
+            "workCardImageSrc": "/images/project4/ZKing_Project 2-Composition_V26.jpg",
             "url": "",
-            "role": "Packaging Designer",
+            "role": "Graphic Design",
             "techStack": [
-                "3D Modeling",
-                "Adobe Creative Suite"
+                "Adobe InDesign",
+                "Adobe Illustrator",
+                "Compositional Design",
+                "Visual Hierarchy"
             ],
-            "explanation": "Designed eco-friendly packaging for a sustainable product line, focusing on minimal waste and recyclable materials. The design process included material research, 3D modeling, and prototype testing.",
-            "challenges": "Balancing sustainability with cost-effectiveness",
-            "results": "Reduced packaging waste by 45% while maintaining product protection",
+            "explanation": "",
+            "challenges": "Creating visual interest and clear information hierarchy using only typographic elements and limited color palette",
+            "results": "Developed a deeper understanding of typographic principles and created a series of compositions that effectively demonstrate visual hierarchy concepts",
+            "introductionPhase": "In this study, I was given a single set of text and was encouraged to explore compositional alternatives while expressing a clear hierarchy of the information.",
+            "typeExamplePhase": "![Type Example](/images/project4/ZKing_TypeExample-1.jpeg)",
+            "sketchProcessPhase": "The rough sketches display my early compositions as I sifted through the various possibilities in my design.",
+            "designConcepts": "Throughout my design process, I thought about capturing the duality between Symmetry / Asymmetry, Rhythmic / Static movement, and Grouping / Isolation by creating emphasis using Contrast, Textures, Proximity and Grid structures.",
+            "thumbnailSketches": "![Thumbnail Sketches](/images/project4/Thumbnail Sketches.jpeg)",
+            "compositions": "![Composition Study 1](/images/project4/ZKing_Composition1.jpg)\n![Composition Study 2](/images/project4/ZKing_Composition2.jpg)\n![Composition Study 3](/images/project4/ZKing_Composition3.jpg)\n![Composition Study 4](/images/project4/ZKing_Composition4.jpg)\n![Composition Study 5](/images/project4/ZKing_Composition5.jpg)",
             "additionalImages": [
                 {
-                    "url": "/images/project4/1.jpg",
-                    "caption": "Packaging Design Process"
+                    "url": "/images/project4/Thumbnail Sketches.jpeg",
+                    "caption": "Thumbnail Sketches"
                 },
                 {
-                    "url": "/images/project4/2.jpg",
-                    "caption": "Material Studies"
+                    "url": "/images/project4/ZKing_Composition1.jpg",
+                    "caption": "Composition Study 1"
                 },
                 {
-                    "url": "/images/project4/3.jpg",
-                    "caption": "Final Product"
+                    "url": "/images/project4/ZKing_Composition2.jpg",
+                    "caption": "Composition Study 2"
+                },
+                {
+                    "url": "/images/project4/ZKing_Composition3.jpg",
+                    "caption": "Composition Study 3"
+                },
+                {
+                    "url": "/images/project4/ZKing_Composition4.jpg",
+                    "caption": "Composition Study 4"
+                },
+                {
+                    "url": "/images/project4/ZKing_Composition5.jpg",
+                    "caption": "Composition Study 5"
                 }
             ]
         },
         {
             "id": "5",
-            "title": "Website Redesign",
-            "description": "E-commerce website redesign",
-            "imageSrc": "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+            "title": "Marketing Management",
+            "description": "Social media campaign and marketing materials for campus dining services",
+            "imageSrc": "/images/project5/Unit Director 1.png",
+            "workCardImageSrc": "/images/project5/Unit Director 1.png",
             "url": "",
-            "role": "Lead Designer",
+            "role": "Marketing Designer",
             "techStack": [
-                "Figma",
-                "Adobe XD",
-                "HTML/CSS"
+                "Adobe Illustrator",
+                "Adobe Photoshop",
+                "Social Media Design",
+                "Brand Strategy"
             ],
-            "explanation": "Led the complete redesign of an e-commerce website, focusing on improving user experience and conversion rates. The project included user research, wireframing, and high-fidelity design creation.",
-            "challenges": "Optimizing for both desktop and mobile experiences",
-            "results": "Increased conversion rate by 35% and improved user engagement"
+            "explanation": "Created a comprehensive marketing campaign for UC Davis Dining Services, including social media content, print materials, and digital signage. The project focused on creating consistent, engaging visuals while communicating important information to students about dining services, job opportunities, and special events.",
+            "challenges": "Balancing eye-catching design with clear information communication for a diverse student audience",
+            "results": "Increased student engagement on social media platforms and improved awareness of dining services programs",
+            "carouselGroups": [
+                {
+                    "title": "Manager Recruitment Campaign",
+                    "description": "A series of posts designed to attract student managers to campus dining facilities",
+                    "images": [
+                        {
+                            "url": "/images/project5/Managers Post 1.png",
+                            "caption": "Introduction Post"
+                        },
+                        {
+                            "url": "/images/project5/Managers Post 2.png",
+                            "caption": "Leadership Opportunities"
+                        },
+                        {
+                            "url": "/images/project5/Managers Post 3.png",
+                            "caption": "Job Benefits"
+                        },
+                        {
+                            "url": "/images/project5/Managers Post 4.png",
+                            "caption": "Application Information"
+                        },
+                        {
+                            "url": "/images/project5/Managers Post 5.png",
+                            "caption": "Employment Campaign"
+                        },
+                        {
+                            "url": "/images/project5/Managers Post 6.png",
+                            "caption": "Job Qualifications"
+                        },
+                        {
+                            "url": "/images/project5/Managers Post 7.png",
+                            "caption": "Team Environment"
+                        },
+                        {
+                            "url": "/images/project5/Managers Post 8.png",
+                            "caption": "Professional Development"
+                        },
+                        {
+                            "url": "/images/project5/Managers Post 9.png",
+                            "caption": "Career Advancement"
+                        }
+                    ]
+                },
+                {
+                    "title": "Coordinator Hiring Campaign",
+                    "description": "Promotional materials for coordinator positions in dining services",
+                    "images": [
+                        {
+                            "url": "/images/project5/Coord Hiring Post 1.png",
+                            "caption": "Coordinator Intro"
+                        },
+                        {
+                            "url": "/images/project5/Coord Hiring Post 2.png",
+                            "caption": "Coordinator Responsibilities"
+                        },
+                        {
+                            "url": "/images/project5/Coord Hiring Post 3.png",
+                            "caption": "Coordinator Benefits"
+                        }
+                    ]
+                },
+                {
+                    "title": "Unit Director Campaign",
+                    "description": "Recruitment material for unit director positions",
+                    "images": [
+                        {
+                            "url": "/images/project5/Unit Director 1.png",
+                            "caption": "Unit Director Main Post"
+                        },
+                        {
+                            "url": "/images/project5/Unit Director 2.png",
+                            "caption": "Unit Director Details"
+                        }
+                    ]
+                },
+                {
+                    "title": "Informational Posts",
+                    "description": "Various informational posts for campus dining services",
+                    "images": [
+                        {
+                            "url": "/images/project5/Pantry Closing Post.png",
+                            "caption": "Pantry Closing Hours"
+                        },
+                        {
+                            "url": "/images/project5/HAUS Volunteer Post.jpg",
+                            "caption": "HAUS Volunteer Opportunities"
+                        },
+                        {
+                            "url": "/images/project5/Online and Mobile Orders.png",
+                            "caption": "Mobile Ordering Information"
+                        },
+                        {
+                            "url": "/images/project5/FQ Weekend Hours.png",
+                            "caption": "Weekend Hours Notice"
+                        }
+                    ]
+                }
+            ],
+            "additionalImages": [
+                {
+                    "url": "/images/project5/Managers Post 1.png",
+                    "caption": "Manager Recruitment Post"
+                },
+                {
+                    "url": "/images/project5/Managers Post 2.png",
+                    "caption": "Leadership Opportunities"
+                },
+                {
+                    "url": "/images/project5/Managers Post 3.png",
+                    "caption": "Job Benefits Highlights"
+                },
+                {
+                    "url": "/images/project5/Managers Post 4.png",
+                    "caption": "Application Information"
+                },
+                {
+                    "url": "/images/project5/Managers Post 5.png",
+                    "caption": "Student Employment Campaign"
+                }
+            ]
         },
         {
             "id": "6",
-            "title": "Print Campaign",
-            "description": "Magazine advertising campaign",
-            "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+            "title": "Illustrations",
+            "description": "Digital illustrations showcasing unique art style and visual storytelling",
+            "imageSrc": "/images/project6/ZKing_Whole_Earth_Festival.png",
+            "workCardImageSrc": "/images/project6/ZKing_Whole_Earth_Festival.png",
             "url": "",
-            "role": "Art Director",
+            "role": "Illustrator",
             "techStack": [
-                "InDesign",
-                "Photoshop",
-                "Illustrator"
+                "Adobe Illustrator",
+                "Digital Drawing",
+                "Color Theory",
+                "Visual Composition"
             ],
-            "explanation": "Created a series of print advertisements for a luxury magazine campaign. The project involved concept development, photography direction, and layout design for multiple ad formats.",
-            "challenges": "Maintaining visual impact across different print formats",
-            "results": "Received industry recognition and increased brand prestige"
+            "explanation": "Created a series of digital illustrations that showcase my artistic style, technical skill, and storytelling ability. This work demonstrates my approach to creating engaging visuals that communicate ideas and evoke emotional responses.",
+            "challenges": "Developing a unique artistic voice while effectively communicating conceptual ideas through visual means",
+            "results": "Produced a portfolio of illustrations that demonstrate versatility in style and subject matter",
+            "additionalImages": [
+                {
+                    "url": "/images/project6/ZKing_Whole_Earth_Festival.png",
+                    "caption": "Whole Earth Festival Illustration - Digital art celebrating environmental awareness and community"
+                }
+            ]
         }
     ],
     "services": [
@@ -191,45 +463,99 @@
     ],
     "aboutpara": "Hello, I'm Zahar. I'm a marketing and product designer with a deep commitment to empowering communities, amplifying voices, and creating impactful solutions through a detail-oriented approach.",
     "resume": {
-        "tagline": "👋  I'm a software engineer, product designer.",
-        "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
+        "tagline": "A marketing and graphic designer with a deep commitment to empowering communities, encouraging accessibility, and developing impactful solutions through a detail-oriented approach.",
+        "description": "I create impactful designs that combine aesthetics with functionality. My experience spans from branding and marketing to digital product design, with a focus on creating user-centered experiences that meet client goals.",
+        "resumeLink": "/resume/ZKing-Resume.pdf",
+        "contact": {
+            "linkedin": "linkedin.com/in/zahar-king",
+            "email": "zahmoki@gmail.com",
+            "phone": "(619) 818-2518"
+        },
         "experiences": [
             {
                 "id": "1",
-                "dates": "March 2022 - Present",
-                "type": "Full Time",
-                "position": "Frontend Engineer at X",
-                "bullets": "Bullet One, Bullet Two"
+                "dates": "June 2024 - Present",
+                "type": "Part Time",
+                "position": "Outreach Manager at The ASUCD Pantry",
+                "location": "Davis, CA",
+                "bullets": [
+                    "Hosted outreach campaigns for donation drives and educational events, driving engagement with local organizations and other campus groups",
+                    "Designed promotional materials (flyers, merchandise, media), and infused original designs into base brand guidelines using Adobe Creative Suite and Canva",
+                    "Directed marketing and media strategies to raise awareness of services and resources, boosting online engagement by 175% and reaching 2,000 accounts monthly",
+                    "Led a team of coordinators in producing educational content and media projects that successfully reflect our mission and brand"
+                ]
             },
             {
-                "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
-                "dates": "July 2020 - March 2022",
-                "type": "Full Time",
-                "position": "Frontend Engineer at X",
-                "bullets": "Worked on the frontend of a React application, Worked on the frontend of a React application"
+                "id": "2",
+                "dates": "December 2023 - June 2024",
+                "type": "Part Time",
+                "position": "Graphic Designer at Housing Advising for Undergraduate Students (HAUS)",
+                "location": "Davis, CA",
+                "bullets": [
+                    "Designed all promotional material to advertise services, upcoming events, and initiatives",
+                    "Worked closely with directors all throughout the creative process, proofread all designs for errors before final deadlines",
+                    "Independently developed brand guidelines and visual mock ups of projects while adhering to tight deadlines",
+                    "Increased online visibility by 75% and garnered a 85% increase in campus-wide engagement",
+                    "Assisted with event planning and co-hosted outreach events, fostering engagement with students across campus"
+                ]
+            },
+            {
+                "id": "3",
+                "dates": "September 2023 - December 2023",
+                "type": "Part Time",
+                "position": "Senator at the Associated Students of UC Davis (ASUCD)",
+                "location": "Davis, CA",
+                "bullets": [
+                    "Promoted senate initiatives and resources through tabling, conducting surveys, and designing promotional material",
+                    "Drafted and passed senate bills to improve resource accessibility across campus",
+                    "Collaborated with various committees, commissions, and units aimed at improving overall student welfare",
+                    "Responded to student inquiries through office hours, town halls, and outreach events",
+                    "Documented notes and public comments during all ASUCD listening sessions for student organization directors"
+                ]
             }
         ],
-        "education": {
-            "universityName": "University of California, Davis",
-            "universityDate": "2021-2025",
-            "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
-        },
-        "languages": [
-            "Javascript",
-            "HTML5",
-            "CSS",
-            "Python",
-            "Go"
+        "education": [
+            {
+                "universityName": "University of California, Davis",
+                "universityDate": "2021 - 2025",
+                "location": "Davis, CA",
+                "degree": "BA in English, BA in Design"
+            },
+            {
+                "universityName": "San Diego Mesa College",
+                "universityDate": "2018 - 2021",
+                "location": "San Diego, CA",
+                "degree": "AA in English, Certificate of Achievement in Creative Writing"
+            }
         ],
-        "frameworks": [
-            "React",
-            "Typescript",
-            "NodeJs"
-        ],
-        "others": [
+        "tools": [
             "Figma",
-            "AdobeXD",
-            "AWS"
+            "Notion",
+            "Canva",
+            "Adobe Creative Suite",
+            "Google Suite",
+            "Visual Studio Code",
+            "Microsoft Suite"
+        ],
+        "skills": [
+            "Social Media Marketing",
+            "Event Planning",
+            "Team Management",
+            "Community Outreach",
+            "Public Speaking",
+            "Project Management",
+            "Promotional Advertising",
+            "Brand Design"
+        ],
+        "achievements": [
+            {
+                "title": "Design Interactive 2024 Fellowship",
+                "description": "Winner of Best UX Research"
+            },
+            {
+                "title": "Davis Design Fest 2025",
+                "description": "Participant"
+            }
         ]
     }
 }
