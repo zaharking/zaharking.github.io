@@ -262,33 +262,8 @@
             "sketchProcessPhase": "The rough sketches display my early compositions as I sifted through the various possibilities in my design.",
             "designConcepts": "Throughout my design process, I thought about capturing the duality between Symmetry / Asymmetry, Rhythmic / Static movement, and Grouping / Isolation by creating emphasis using Contrast, Textures, Proximity and Grid structures.",
             "thumbnailSketches": "![Thumbnail Sketches](/images/project4/Thumbnail Sketches.jpeg)",
-            "compositions": "![Composition Study 1](/images/project4/ZKing_Composition1.jpg)\n![Composition Study 2](/images/project4/ZKing_Composition2.jpg)\n![Composition Study 3](/images/project4/ZKing_Composition3.jpg)\n![Composition Study 4](/images/project4/ZKing_Composition4.jpg)\n![Composition Study 5](/images/project4/ZKing_Composition5.jpg)",
-            "additionalImages": [
-                {
-                    "url": "/images/project4/Thumbnail Sketches.jpeg",
-                    "caption": "Thumbnail Sketches"
-                },
-                {
-                    "url": "/images/project4/ZKing_Composition1.jpg",
-                    "caption": "Composition Study 1"
-                },
-                {
-                    "url": "/images/project4/ZKing_Composition2.jpg",
-                    "caption": "Composition Study 2"
-                },
-                {
-                    "url": "/images/project4/ZKing_Composition3.jpg",
-                    "caption": "Composition Study 3"
-                },
-                {
-                    "url": "/images/project4/ZKing_Composition4.jpg",
-                    "caption": "Composition Study 4"
-                },
-                {
-                    "url": "/images/project4/ZKing_Composition5.jpg",
-                    "caption": "Composition Study 5"
-                }
-            ]
+            "compositions": "![Composition Study 1](/images/project4/ZKing_Composition1.jpg)\n![Composition Study 2](/images/project4/ZKing_Composition2.jpg)\n![Composition Study 3](/images/project4/ZKing_Composition3.jpg)\n![Composition Study 4](/images/project4/ZKing_Composition4.jpg)\n![Composition Study 5](/images/project4/ZKing_Composition5.jpg)"
+    
         },
         {
             "id": "5",
