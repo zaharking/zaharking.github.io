@@ -292,139 +292,40 @@
         },
         {
             "id": "5",
-            "title": "Marketing Management",
-            "description": "Social media campaign and marketing materials for The ASUCD Pantry",
+            "title": "Marketing Strategy",
+            "description": "Comprehensive marketing approach for The ASUCD Pantry focusing on brand development and audience engagement",
             "imageSrc": "/images/project5/Unit Director 1.png",
             "workCardImageSrc": "/images/project5/Unit Director 1.png",
             "url": "",
-            "role": "Marketing Designer",
+            "role": "Marketing Strategist",
+            "hidden": true,
             "techStack": [
-                "Adobe Illustrator",
-                "Canva",
-                "Social Media Design",
-                "Brand Strategy"
+                "Brand Strategy",
+                "Content Planning",
+                "Audience Analysis",
+                "Campaign Management"
             ],
-            "explanation": "Developed a cohesive social media presence for The ASUCD Pantry, while developing engaging graphics that communicate important information about our services, opportunities, and events.",
-            "challenges": "Balancing eye-catching design with clear information communication for a diverse student audience",
-            "results": "Increased student engagement on social media platforms and improved awareness of dining services programs",
+            "explanation": "Developed and implemented a comprehensive marketing strategy for The ASUCD Pantry, focusing on brand identity, messaging consistency, and audience engagement to effectively promote services and opportunities to the campus community.",
+            "challenges": "Creating a cohesive brand identity and marketing approach that resonates with a diverse student audience while maintaining consistency across various platforms and materials",
+            "results": "Established a recognizable brand presence, increased service usage, and improved community awareness of available resources through strategic marketing initiatives",
             "carouselGroups": [
                 {
-                    "title": "Manager Recruitment Campaign",
-                    "description": "A series of posts designed to attract student managers to campus dining facilities",
+                    "title": "Brand Development",
+                    "description": "Evolution of The Pantry's visual identity and brand strategy",
                     "images": [
                         {
                             "url": "/images/project5/Managers Post 1.png",
-                            "caption": "Introduction Post"
+                            "caption": "Visual Identity Components"
                         },
                         {
                             "url": "/images/project5/Managers Post 2.png",
-                            "caption": "Leadership Opportunities"
-                        },
-                        {
-                            "url": "/images/project5/Managers Post 3.png",
-                            "caption": "Job Benefits"
-                        },
-                        {
-                            "url": "/images/project5/Managers Post 4.png",
-                            "caption": "Application Information"
+                            "caption": "Brand Voice Examples"
                         },
                         {
                             "url": "/images/project5/Managers Post 5.png",
-                            "caption": "Employment Campaign"
-                        },
-                        {
-                            "url": "/images/project5/Managers Post 6.png",
-                            "caption": "Job Qualifications"
-                        },
-                        {
-                            "url": "/images/project5/Managers Post 7.png",
-                            "caption": "Team Environment"
-                        },
-                        {
-                            "url": "/images/project5/Managers Post 8.png",
-                            "caption": "Professional Development"
-                        },
-                        {
-                            "url": "/images/project5/Managers Post 9.png",
-                            "caption": "Career Advancement"
+                            "caption": "Messaging Framework"
                         }
                     ]
-                },
-                {
-                    "title": "Coordinator Hiring Campaign",
-                    "description": "Promotional materials for coordinator positions in dining services",
-                    "images": [
-                        {
-                            "url": "/images/project5/Coord Hiring Post 1.png",
-                            "caption": "Coordinator Intro"
-                        },
-                        {
-                            "url": "/images/project5/Coord Hiring Post 2.png",
-                            "caption": "Coordinator Responsibilities"
-                        },
-                        {
-                            "url": "/images/project5/Coord Hiring Post 3.png",
-                            "caption": "Coordinator Benefits"
-                        }
-                    ]
-                },
-                {
-                    "title": "Unit Director Campaign",
-                    "description": "Recruitment material for unit director positions",
-                    "images": [
-                        {
-                            "url": "/images/project5/Unit Director 1.png",
-                            "caption": "Unit Director Main Post"
-                        },
-                        {
-                            "url": "/images/project5/Unit Director 2.png",
-                            "caption": "Unit Director Details"
-                        }
-                    ]
-                },
-                {
-                    "title": "Informational Posts",
-                    "description": "Various informational posts for campus dining services",
-                    "images": [
-                        {
-                            "url": "/images/project5/Pantry Closing Post.png",
-                            "caption": "Pantry Closing Hours"
-                        },
-                        {
-                            "url": "/images/project5/HAUS Volunteer Post.jpg",
-                            "caption": "HAUS Volunteer Opportunities"
-                        },
-                        {
-                            "url": "/images/project5/Online and Mobile Orders.png",
-                            "caption": "Mobile Ordering Information"
-                        },
-                        {
-                            "url": "/images/project5/FQ Weekend Hours.png",
-                            "caption": "Weekend Hours Notice"
-                        }
-                    ]
-                }
-            ],
-            "additionalImages": [
-                {
-                    "url": "/images/project5/Managers Post 1.png",
-                    "caption": "Manager Recruitment Post"
-                },
-                {
-                    "url": "/images/project5/Managers Post 2.png",
-                    "caption": "Leadership Opportunities"
-                },
-                {
-                    "url": "/images/project5/Managers Post 3.png",
-                    "caption": "Job Benefits Highlights"
-                },
-                {
-                    "url": "/images/project5/Managers Post 4.png",
-                    "caption": "Application Information"
-                },
-                {
-                    "url": "/images/project5/Managers Post 5.png",
-                    "caption": "Student Employment Campaign"
                 }
             ]
         },
@@ -533,6 +434,216 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": "8",
+            "title": "Print Media Design",
+            "description": "Print materials including flyers, brochures, and stickers designed for the ASUCD Pantry",
+            "imageSrc": "/images/project8/Stickers Carousel/Berries Sticker.png",
+            "workCardImageSrc": "/images/project8/Stickers Carousel/Beet Sticker.png",
+            "url": "",
+            "role": "Graphic Designer",
+            "techStack": [
+                "Adobe Illustrator",
+                "Adobe InDesign",
+                "Print Design",
+                "Brand Guidelines"
+            ],
+            "explanation": "Designed a variety of print materials for campus organizations that effectively communicate important information through visually engaging layouts. These designs balance brand identity with clear messaging to reach diverse student audiences.",
+            "challenges": "Creating print materials that stand out in a busy campus environment while ensuring information is clear, accessible, and aligned with organizational branding",
+            "results": "Produced high-quality print materials that increased visibility and engagement for campus programs and services",
+            "carouselGroups": [
+                {
+                    "title": "Brochures",
+                    "description": "Informational brochures designed for campus services",
+                    "images": [
+                        {
+                            "url": "/images/project8/Brochure Carousel/Brochure 1.png",
+                            "caption": "Front Cover and Introduction"
+                        },
+                        {
+                            "url": "/images/project8/Brochure Carousel/Brochure 2.png",
+                            "caption": "Interior Content Layout"
+                        }
+                    ]
+                },
+                {
+                    "title": "Sticker Collection",
+                    "description": "A series of food-themed stickers designed for The Pantry",
+                    "images": [
+                        {
+                            "url": "/images/project8/Stickers Carousel/Bean Sticker.png",
+                            "caption": "Bean Sticker Design"
+                        },
+                        {
+                            "url": "/images/project8/Stickers Carousel/Beet Sticker.png",
+                            "caption": "Beet Sticker Design"
+                        },
+                        {
+                            "url": "/images/project8/Stickers Carousel/Berries Sticker.png",
+                            "caption": "Berries Sticker Design"
+                        },
+                        {
+                            "url": "/images/project8/Stickers Carousel/Cherry Sticker.png",
+                            "caption": "Cherry Sticker Design"
+                        },
+                        {
+                            "url": "/images/project8/Stickers Carousel/Lime Sticker.png",
+                            "caption": "Lime Sticker Design"
+                        },
+                        {
+                            "url": "/images/project8/Stickers Carousel/Muffin Sticker.png",
+                            "caption": "Muffin Sticker Design"
+                        },
+                        {
+                            "url": "/images/project8/Stickers Carousel/Olive Sticker.png",
+                            "caption": "Olive Sticker Design"
+                        }
+                    ]
+                },
+                {
+                    "title": "Flyers and Notices",
+                    "description": "Promotional and informational flyers for campus events and services",
+                    "images": [
+                        {
+                            "url": "/images/project8/The Pantry Resource Flyer.png",
+                            "caption": "The Pantry Resource Flyer"
+                        },
+                        {
+                            "url": "/images/project8/HAUS_Advertisement_Flyer.png",
+                            "caption": "HAUS Advertisement Flyer"
+                        },
+                        {
+                            "url": "/images/project8/Spring Volunteer Flyer.png",
+                            "caption": "Spring Volunteer Recruitment Flyer"
+                        },
+                        {
+                            "url": "/images/project8/Hiring Notice Flyer.png",
+                            "caption": "Hiring Notice Flyer"
+                        },
+                        {
+                            "url": "/images/project8/Adjusted Hours.png",
+                            "caption": "Adjusted Hours Notice"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "9",
+            "title": "Social Media Design",
+            "description": "Social media campaign graphics and informational posts for the ASUCD Pantry",
+            "imageSrc": "/images/project9/Carousel Post 3/Managers Post 1.png",
+            "workCardImageSrc": "/images/project9/Carousel Post 3/Managers Post 1.png",
+            "url": "",
+            "role": "Social Media Designer",
+            "techStack": [
+                "Adobe Illustrator",
+                "Canva",
+                "Social Media Strategy",
+                "Digital Marketing"
+            ],
+            "explanation": "Developed cohesive social media campaigns that communicate important information about campus services, opportunities, and events through visually engaging designs. These posts are optimized for social media platforms and targeted to a student audience.",
+            "challenges": "Creating eye-catching content that stands out in crowded social feeds while effectively communicating essential information in a concise, accessible format",
+            "results": "Increased student engagement on social media platforms and improved awareness of campus programs and services",
+            "carouselGroups": [
+                {
+                    "title": "Manager Recruitment Campaign",
+                    "description": "A series of posts designed to attract student managers to campus positions",
+                    "images": [
+                        {
+                            "url": "/images/project9/Carousel Post 3/Managers Post 1.png",
+                            "caption": "Manager Post 1"
+                        },
+                        {
+                            "url": "/images/project9/Carousel Post 3/Managers Post 2.png",
+                            "caption": "Manager Post 2"
+                        },
+                        {
+                            "url": "/images/project9/Carousel Post 3/Managers Post 3.png",
+                            "caption": "Manager Post 3"
+                        },
+                        {
+                            "url": "/images/project9/Carousel Post 3/Managers Post 4.png",
+                            "caption": "Manager Post 4"
+                        },
+                        {
+                            "url": "/images/project9/Carousel Post 3/Managers Post 5.png",
+                            "caption": "Manager Post 5"
+                        },
+                        {
+                            "url": "/images/project9/Carousel Post 3/Managers Post 6.png",
+                            "caption": "Manager Post 6"
+                        },
+                        {
+                            "url": "/images/project9/Carousel Post 3/Managers Post 7.png",
+                            "caption": "Manager Post 7"
+                        },
+                        {
+                            "url": "/images/project9/Carousel Post 3/Managers Post 8.png",
+                            "caption": "Manager Post 8"
+                        },
+                        {
+                            "url": "/images/project9/Carousel Post 3/Managers Post 9.png",
+                            "caption": "Manager Post 9"
+                        }
+                    ]
+                },
+                {
+                    "title": "Coordinator Hiring Campaign",
+                    "description": "Promotional materials for coordinator positions",
+                    "images": [
+                        {
+                            "url": "/images/project9/Carousel Post 2/Coord Hiring Post 1.png",
+                            "caption": "Coordinator Intro"
+                        },
+                        {
+                            "url": "/images/project9/Carousel Post 2/Coord Hiring Post 2.png",
+                            "caption": "Coordinator Responsibilities"
+                        },
+                        {
+                            "url": "/images/project9/Carousel Post 2/Coord Hiring Post 3.png",
+                            "caption": "Coordinator Benefits"
+                        }
+                    ]
+                },
+                {
+                    "title": "Unit Director Campaign",
+                    "description": "Recruitment material for unit director positions",
+                    "images": [
+                        {
+                            "url": "/images/project9/Carousel Post 1/Unit Director 1.png",
+                            "caption": "Unit Director Main Post"
+                        },
+                        {
+                            "url": "/images/project9/Carousel Post 1/Unit Director 2.png",
+                            "caption": "Unit Director Details"
+                        }
+                    ]
+                },
+                {
+                    "title": "Informational Posts",
+                    "description": "Various informational posts for campus services",
+                    "images": [
+                        {
+                            "url": "/images/project9/Pantry Closing Post.png",
+                            "caption": "Pantry Closing Hours"
+                        },
+                        {
+                            "url": "/images/project9/HAUS Volunteer Post.jpg",
+                            "caption": "HAUS Volunteer Opportunities"
+                        },
+                        {
+                            "url": "/images/project9/Online and Mobile Orders.png",
+                            "caption": "Mobile Ordering Information"
+                        },
+                        {
+                            "url": "/images/project9/FQ Weekend Hours.png",
+                            "caption": "Weekend Hours Notice"
+                        }
+                    ]
+                }
+            ]
         }
     ],
     "services": [
@@ -564,8 +675,7 @@
         "resumeLink": "/resume/ZKing-Resume.pdf",
         "contact": {
             "linkedin": "linkedin.com/in/zahar-king",
-            "email": "zahmoki@gmail.com",
-            "phone": "(619) 818-2518"
+            "email": "zahmoki@gmail.com"
         },
         "experiences": [
             {
@@ -625,23 +735,23 @@
             }
         ],
         "tools": [
-            "Figma",
-            "Notion",
-            "Canva",
             "Adobe Creative Suite",
-            "Google Suite",
-            "Visual Studio Code",
-            "Microsoft Suite"
+            "Canva",
+            "Figma", 
+            "Microsoft Suite",
+            "Notion",
+            "Trello",
+            "VectorWorks",
+            "Visual Studio Code"
         ],
         "skills": [
-            "Social Media Marketing",
-            "Event Planning",
-            "Team Management",
-            "Community Outreach",
-            "Public Speaking",
-            "Project Management",
-            "Promotional Advertising",
-            "Brand Design"
+            "UI/UX Design",
+            "Interaction design",
+            "Wireframing",
+            "Prototyping",
+            "User Research",
+            "A/B testing",
+            "Usability testing"
         ],
         "achievements": [
             {

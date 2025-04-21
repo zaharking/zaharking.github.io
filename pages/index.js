@@ -97,7 +97,7 @@ export default function Home() {
           <h1 className="text-2xl text-bold p-2 laptop:p-0">Work</h1>
 
           <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4">
-            {data.projects.map((project) => (
+            {data.projects.filter(project => !project.hidden).map((project) => (
               <WorkCard
                 key={project.id}
                 id={project.id}
