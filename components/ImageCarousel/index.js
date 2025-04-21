@@ -21,9 +21,12 @@ const ImageCarousel = ({ images, title, description }) => {
     return null;
   }
 
-  // Check if current image is part of a spread (has the same caption as the next image)
-  const isSpread = currentIndex < images.length - 1 && 
-                  images[currentIndex].caption === images[currentIndex + 1].caption;
+  // Check if current image URL contains a comma, indicating it's a spread
+  const currentImageUrl = images[currentIndex].url;
+  const isSpread = currentImageUrl.includes(',');
+  
+  // If it's a spread, split the URLs
+  const imageUrls = isSpread ? currentImageUrl.split(',') : [currentImageUrl];
 
   return (
     <div className="mb-10">
@@ -35,22 +38,22 @@ const ImageCarousel = ({ images, title, description }) => {
       )}
       
       <div className="relative bg-gray-50 dark:bg-gray-800/50 rounded-lg p-4">
-        <div className="overflow-hidden rounded-lg shadow-md">
+        <div className="overflow-hidden rounded-lg shadow-md max-w-[1000px] mx-auto">
           {/* Current Image(s) */}
           <div className="relative w-full">
-            <div className={`flex ${isSpread ? 'gap-4' : ''}`}>
-              <img
-                src={images[currentIndex].url}
-                alt={images[currentIndex].caption}
-                className={`w-full h-auto object-contain max-h-[70vh] ${isSpread ? 'w-1/2' : ''}`}
-              />
-              {isSpread && (
-                <img
-                  src={images[currentIndex + 1].url}
-                  alt={images[currentIndex + 1].caption}
-                  className="w-1/2 h-auto object-contain max-h-[70vh]"
-                />
-              )}
+            <div className={`flex ${isSpread ? 'gap-4 justify-center' : 'justify-center'}`}>
+              {imageUrls.map((url, idx) => (
+                <div 
+                  key={idx} 
+                  className={`relative ${isSpread ? 'w-1/2' : 'w-full max-w-[800px]'}`}
+                >
+                  <img
+                    src={url}
+                    alt={`${images[currentIndex].caption} ${isSpread ? (idx === 0 ? '(Left)' : '(Right)') : ''}`}
+                    className="w-full h-auto object-contain max-h-[70vh]"
+                  />
+                </div>
+              ))}
             </div>
             
             {/* Navigation Arrows */}

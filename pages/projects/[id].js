@@ -61,12 +61,14 @@ const RenderContentWithImages = ({ content, projectId }) => {
             </p>
           ) : (
             <div key={`image-${index}`} className="my-8 bg-gray-50 dark:bg-gray-800/50 p-4 rounded-lg">
-              <img
-                src={part.src}
-                alt={part.alt}
-                className="w-full h-auto object-contain rounded-lg shadow-md max-h-[70vh]"
-              />
-              <p className="text-sm text-center italic opacity-70 mt-3 dark:text-gray-400">{part.alt}</p>
+              <div className="max-w-[800px] mx-auto">
+                <img
+                  src={part.src}
+                  alt={part.alt}
+                  className="w-full h-auto object-contain rounded-lg shadow-md max-h-[70vh]"
+                />
+                <p className="text-sm text-center italic opacity-70 mt-3 dark:text-gray-400">{part.alt}</p>
+              </div>
             </div>
           )
         ))}
@@ -93,13 +95,14 @@ const RenderContentWithImages = ({ content, projectId }) => {
         const imagePath = `/images/project${projectId}/${filename}`;
         return (
           <div key={`image-${index}`} className="my-8 bg-gray-50 dark:bg-gray-800/50 p-4 rounded-lg">
-            <img
-              src={imagePath}
-              alt={imageDesc} // Use derived description for alt text
-              className="w-full h-auto object-contain rounded-lg shadow-md max-h-[70vh]"
-              // Add onError handler maybe? To show placeholder if image fails
-            />
-            <p className="text-sm text-center italic opacity-70 mt-3 dark:text-gray-400">{imageDesc.replace(/-/g, ' ')}</p> {/* Display cleaner description */}
+            <div className="max-w-[800px] mx-auto">
+              <img
+                src={imagePath}
+                alt={imageDesc} // Use derived description for alt text
+                className="w-full h-auto object-contain rounded-lg shadow-md max-h-[70vh]"
+              />
+              <p className="text-sm text-center italic opacity-70 mt-3 dark:text-gray-400">{imageDesc.replace(/-/g, ' ')}</p>
+            </div>
           </div>
         );
       }
@@ -142,13 +145,15 @@ export default function ProjectPage() {
         <Header />
         
         {/* Hero Section */}
-        <div className="mt-20">
-          <div className="relative h-[60vh] w-full overflow-hidden rounded-lg">
-            <img
-              src={project.imageSrc}
-              alt={project.title}
-              className="h-full w-full object-cover"
-            />
+        <div className="mt-20 flex justify-center">
+          <div className="relative w-full max-w-[1200px] rounded-lg overflow-hidden">
+            <div className="w-full" style={{ paddingBottom: '56.25%' }}> {/* 16:9 aspect ratio container */}
+              <img
+                src={project.imageSrc}
+                alt={project.title}
+                className="absolute top-0 left-0 w-full h-full object-contain bg-gray-50 dark:bg-gray-800/30"
+              />
+            </div>
           </div>
         </div>
 
@@ -303,16 +308,18 @@ export default function ProjectPage() {
               <div className="grid grid-cols-1 gap-8">
                 {project.additionalImages.map((image, index) => (
                   <div key={index} className="bg-gray-50 dark:bg-gray-800/50 p-4 rounded-lg">
-                    <img
-                      src={image.url}
-                      alt={image.caption || `Project image ${index + 1}`}
-                      className="w-full h-auto object-contain rounded-lg shadow-md max-h-[80vh]"
-                    />
-                    {image.caption && (
-                      <p className="text-sm text-center italic opacity-70 mt-3 dark:text-gray-400">
-                        {image.caption}
-                      </p>
-                    )}
+                    <div className="max-w-[800px] mx-auto">
+                      <img
+                        src={image.url}
+                        alt={image.caption || `Project image ${index + 1}`}
+                        className="w-full h-auto object-contain rounded-lg shadow-md max-h-[80vh]"
+                      />
+                      {image.caption && (
+                        <p className="text-sm text-center italic opacity-70 mt-3 dark:text-gray-400">
+                          {image.caption}
+                        </p>
+                      )}
+                    </div>
                   </div>
                 ))}
               </div>

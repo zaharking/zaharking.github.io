@@ -1,8 +1,8 @@
 {
     "name": "Zahar King",
-    "headerTaglineOne": "Hello 👋",
-    "headerTaglineTwo": "I'm Zahar -",
-    "headerTaglineThree": "a passionate Graphic Designer",
+    "headerTaglineOne": "Hello,",
+    "headerTaglineTwo": "I'm Zahar-",
+    "headerTaglineThree": "I'm a graphic designer with an interest in digital marketing and product design.",
     "showCursor": false,
     "darkMode": true,
     "showResume": true,
@@ -26,7 +26,7 @@
     "projects": [
         {
             "id": "1",
-            "title": "CoHabit: Davis Design Fest 24hr Sprint",
+            "title": "CoHabit",
             "description": "CoHabit is an social connections app driven to aid students in their search for the ideal first-time housemate.",
             "imageSrc": "/images/project1/CoHabit Mockup.png",
             "workCardImageSrc": "/images/project1/CoHabit Mockup Square.png",
@@ -73,67 +73,81 @@
                     "description": "A complete walkthrough of the zine's content and design",
                     "images": [
                         {
-                            "url": "/images/project2/1.png",
+                            "url": "/images/project2/Page 1.png",
                             "caption": "Page 1"
                         },
                         {
-                            "url": "/images/project2/2.png",
-                            "caption": "Page 2-3 (Left)"
+                            "url": "/images/project2/Page 2.png,/images/project2/Page 3.png",
+                            "caption": "Pages 2-3 Spread"
                         },
                         {
-                            "url": "/images/project2/3.png",
-                            "caption": "Page 2-3 (Right)"
+                            "url": "/images/project2/Page 4.png,/images/project2/Page 5.png",
+                            "caption": "Pages 4-5 Spread"
                         },
                         {
-                            "url": "/images/project2/4.png",
-                            "caption": "Page 4-5 (Left)"
+                            "url": "/images/project2/Page 6.png,/images/project2/Page 7.png",
+                            "caption": "Pages 6-7 Spread"
                         },
                         {
-                            "url": "/images/project2/5.png",
-                            "caption": "Page 4-5 (Right)"
+                            "url": "/images/project2/Page 8.png,/images/project2/Page 9.png",
+                            "caption": "Pages 8-9 Spread"
                         },
                         {
-                            "url": "/images/project2/6.png",
-                            "caption": "Page 6-7 (Left)"
+                            "url": "/images/project2/Page 10.png,/images/project2/Page 11.png",
+                            "caption": "Pages 10-11 Spread"
                         },
                         {
-                            "url": "/images/project2/7.png",
-                            "caption": "Page 6-7 (Right)"
+                            "url": "/images/project2/Page 12.png,/images/project2/Page 13.png",
+                            "caption": "Pages 12-13 Spread"
                         },
                         {
-                            "url": "/images/project2/8.png",
-                            "caption": "Page 8-9 (Left)"
+                            "url": "/images/project2/Page 14.png,/images/project2/Page 15.png",
+                            "caption": "Pages 14-15 Spread"
                         },
                         {
-                            "url": "/images/project2/9.png",
-                            "caption": "Page 8-9 (Right)"
+                            "url": "/images/project2/Page 16.png",
+                            "caption": "Back Cover"
+                        }
+                    ]
+                },
+                {
+                    "title": "Pantry Zine Second Edition",
+                    "description": "An updated version of the zine with additional content and refined design",
+                    "images": [
+                        {
+                            "url": "/images/project2/Book2/1.png",
+                            "caption": "Cover"
                         },
                         {
-                            "url": "/images/project2/10.png",
-                            "caption": "Page 10-11 (Left)"
+                            "url": "/images/project2/Book2/2.png,/images/project2/Book2/3.png",
+                            "caption": "Pages 2-3 Spread"
                         },
                         {
-                            "url": "/images/project2/11.png",
-                            "caption": "Page 10-11 (Right)"
+                            "url": "/images/project2/Book2/4.png,/images/project2/Book2/5.png",
+                            "caption": "Pages 4-5 Spread"
                         },
                         {
-                            "url": "/images/project2/12.png",
-                            "caption": "Page 12-13 (Left)"
+                            "url": "/images/project2/Book2/6.png,/images/project2/Book2/7.png",
+                            "caption": "Pages 6-7 Spread"
                         },
                         {
-                            "url": "/images/project2/13.png",
-                            "caption": "Page 12-13 (Right)"
+                            "url": "/images/project2/Book2/8.png,/images/project2/Book2/9.png",
+                            "caption": "Pages 8-9 Spread"
                         },
                         {
-                            "url": "/images/project2/14.png",
-                            "caption": "Page 14-15 (Left)"
+                            "url": "/images/project2/Book2/10.png,/images/project2/Book2/11.png",
+                            "caption": "Pages 10-11 Spread"
                         },
                         {
-                            "url": "/images/project2/15.png",
-                            "caption": "Page 14-15 (Right)"
+                            "url": "/images/project2/Book2/12.png,/images/project2/Book2/13.png",
+                            "caption": "Pages 12-13 Spread"
                         },
                         {
-                            "url": "/images/project2/16.png",
+                            "url": "/images/project2/Book2/14.png,/images/project2/Book2/15.png",
+                            "caption": "Pages 14-15 Spread"
+                        },
+                        {
+                            "url": "/images/project2/Book2/16.png",
                             "caption": "Back Cover"
                         }
                     ]
@@ -142,10 +156,10 @@
         },
         {
             "id": "3",
-            "title": "Craigslist ReDesign",
+            "title": "Craigslist Redesign",
             "description": "A comprehensive redesign of Craigslist focusing on improved user experience and modern design principles",
             "imageSrc": "/images/project3/1. Title Slide.png",
-            "workCardImageSrc": "/images/project3/1. Title Slide.png",
+            "workCardImageSrc": "/images/project3/Square Image.png",
             "url": "",
             "role": "UX/UI Designer",
             "techStack": [
@@ -279,18 +293,18 @@
         {
             "id": "5",
             "title": "Marketing Management",
-            "description": "Social media campaign and marketing materials for campus dining services",
+            "description": "Social media campaign and marketing materials for The ASUCD Pantry",
             "imageSrc": "/images/project5/Unit Director 1.png",
             "workCardImageSrc": "/images/project5/Unit Director 1.png",
             "url": "",
             "role": "Marketing Designer",
             "techStack": [
                 "Adobe Illustrator",
-                "Adobe Photoshop",
+                "Canva",
                 "Social Media Design",
                 "Brand Strategy"
             ],
-            "explanation": "Created a comprehensive marketing campaign for UC Davis Dining Services, including social media content, print materials, and digital signage. The project focused on creating consistent, engaging visuals while communicating important information to students about dining services, job opportunities, and special events.",
+            "explanation": "Developed a cohesive social media presence for The ASUCD Pantry, while developing engaging graphics that communicate important information about our services, opportunities, and events.",
             "challenges": "Balancing eye-catching design with clear information communication for a diverse student audience",
             "results": "Increased student engagement on social media platforms and improved awareness of dining services programs",
             "carouselGroups": [
@@ -416,10 +430,10 @@
         },
         {
             "id": "6",
-            "title": "Illustrations",
-            "description": "Digital illustrations showcasing unique art style and visual storytelling",
-            "imageSrc": "/images/project6/ZKing_Whole_Earth_Festival.png",
-            "workCardImageSrc": "/images/project6/ZKing_Whole_Earth_Festival.png",
+            "title": "Multi Media Works",
+            "description": "Illustrations, collages, and projects that showcase my understanding of composition, color theory, and perspective.",
+            "imageSrc": "/images/project6/Expanding the Square.jpg",
+            "workCardImageSrc": "/images/project6/Expanding the Square.jpg",
             "url": "",
             "role": "Illustrator",
             "techStack": [
@@ -431,10 +445,92 @@
             "explanation": "Created a series of digital illustrations that showcase my artistic style, technical skill, and storytelling ability. This work demonstrates my approach to creating engaging visuals that communicate ideas and evoke emotional responses.",
             "challenges": "Developing a unique artistic voice while effectively communicating conceptual ideas through visual means",
             "results": "Produced a portfolio of illustrations that demonstrate versatility in style and subject matter",
-            "additionalImages": [
+            "carouselGroups": [
                 {
-                    "url": "/images/project6/ZKing_Whole_Earth_Festival.png",
-                    "caption": "Whole Earth Festival Illustration - Digital art celebrating environmental awareness and community"
+                    "title": "Multi Media Works Gallery",
+                    "description": "A collection of illustrations, collages, and mixed media works",
+                    "images": [
+                        {
+                            "url": "/images/project6/Expanding the Square.jpg",
+                            "caption": "Expanding the Square - Mixed media exploration of geometric forms and space"
+                        },
+                        {
+                            "url": "/images/project6/ZKing_Whole_Earth_Festival.png",
+                            "caption": "Whole Earth Festival Illustration - Digital art celebrating environmental awareness and community"
+                        },
+                        {
+                            "url": "/images/project6/Basquiat Poster.png",
+                            "caption": "Basquiat-Inspired Poster - Homage to the iconic artist's style and visual language"
+                        },
+                        {
+                            "url": "/images/project6/Statue Painting.jpg",
+                            "caption": "Statue Painting - Mixed media artwork exploring form and texture"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "title": "Rhythm Book",
+            "description": "A mini publication exploring visual rhythm and composition through typography and imagery",
+            "imageSrc": "/images/project7/Rhythm 1.png",
+            "workCardImageSrc": "/images/project7/Rhythm 1.png",
+            "url": "",
+            "role": "Publication Designer",
+            "techStack": [
+                "Adobe InDesign",
+                "Adobe Illustrator",
+                "Typography",
+                "Editorial Design"
+            ],
+            "explanation": "Designed a conceptual mini-publication that explores the interplay between typography, imagery, and white space to create visual rhythm. This experimental book demonstrates principles of composition, pacing, and visual hierarchy in editorial design.",
+            "challenges": "Creating a cohesive visual narrative that balances experimental typography with readability while maintaining visual interest throughout the publication",
+            "results": "Produced a visually compelling publication that effectively demonstrates principles of rhythm, contrast, and balance in editorial design",
+            "processStatement": "This project began with extensive typographic research and exploration of grid systems. I developed a series of layout studies using different typographic treatments to create distinct rhythmic patterns across spreads, establishing a visual language that carries readers through the publication.",
+            "conceptStatement": "Rhythm Book explores how visual elements create cadence and flow in editorial design. By manipulating typographic scale, weight, spacing, and positioning alongside carefully curated imagery, the publication demonstrates how designers can control the reader's pace and experience.",
+            "carouselGroups": [
+                {
+                    "title": "Rhythm Book Pages",
+                    "description": "A complete walkthrough of the publication's content and design",
+                    "images": [
+                        {
+                            "url": "/images/project7/Rhythm 1.png",
+                            "caption": "Cover"
+                        },
+                        {
+                            "url": "/images/project7/Rhythm 2.png,/images/project7/Rhythm 3.png",
+                            "caption": "Pages 2-3 Spread"
+                        },
+                        {
+                            "url": "/images/project7/Rhythm 4.png,/images/project7/Rhythm 5.png",
+                            "caption": "Pages 4-5 Spread"
+                        },
+                        {
+                            "url": "/images/project7/Rhythm 6.png,/images/project7/Rhythm 7.png",
+                            "caption": "Pages 6-7 Spread"
+                        },
+                        {
+                            "url": "/images/project7/Rhythm 8.png,/images/project7/Rhythm 9.png",
+                            "caption": "Pages 8-9 Spread"
+                        },
+                        {
+                            "url": "/images/project7/Rhythm 10.png,/images/project7/Rhythm 11.png",
+                            "caption": "Pages 10-11 Spread"
+                        },
+                        {
+                            "url": "/images/project7/Rhythm 12.png,/images/project7/Rhythm 13.png",
+                            "caption": "Pages 12-13 Spread"
+                        },
+                        {
+                            "url": "/images/project7/Rhythm 14.png,/images/project7/Rhythm 15.png",
+                            "caption": "Pages 14-15 Spread"
+                        },
+                        {
+                            "url": "/images/project7/Rhythm 16.png",
+                            "caption": "Back Cover"
+                        }
+                    ]
                 }
             ]
         }
@@ -457,8 +553,8 @@
         },
         {
             "id": "4",
-            "title": "3D Design",
-            "description": "I combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
+            "title": "Social Media Management",
+            "description": "I create and manage content across social platforms to build your brand presence, engage with your audience, and drive growth through strategic campaigns."
         }
     ],
     "aboutpara": "Hello, I'm Zahar. I'm a marketing and product designer with a deep commitment to empowering communities, amplifying voices, and creating impactful solutions through a detail-oriented approach.",

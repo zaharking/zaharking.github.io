@@ -41,7 +41,7 @@ const Resume = () => {
             <div
               className="w-full bg-white dark:bg-gray-900 max-w-4xl p-10 mob:p-5 desktop:p-16 rounded-lg shadow-sm dark:border dark:border-gray-700"
             >
-              <h1 className="text-3xl font-bold dark:text-white">{data.name}</h1>
+              <h1 className="text-4xl font-bold dark:text-white">{data.name}</h1>
               <h2 className="text-xl mt-5 dark:text-gray-200">{data.resume.tagline}</h2>
               
               {data.resume.contact && (

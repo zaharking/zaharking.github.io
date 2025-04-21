@@ -154,7 +154,7 @@ const Edit = () => {
       <div className="mt-10">
         <div className={`${theme === "dark" ? "bg-transparent" : "bg-white"}`}>
           <div className="flex items-center justify-between">
-            <h1 className="text-4xl">Dashboard</h1>
+            <h1 className="text-5xl font-bold">Dashboard</h1>
             <div className="flex items-center">
               <Button onClick={saveData} type="primary">
                 Save
@@ -162,40 +162,46 @@ const Edit = () => {
             </div>
           </div>
 
-          <div className="flex items-center">
+          <div className="flex items-center mt-4">
             <Button
               onClick={() => setCurrentTabs("HEADER")}
               type={currentTabs === "HEADER" && "primary"}
+              classes="text-lg"
             >
               Header
             </Button>
             <Button
               onClick={() => setCurrentTabs("PROJECTS")}
               type={currentTabs === "PROJECTS" && "primary"}
+              classes="text-lg"
             >
               Projects
             </Button>
             <Button
               onClick={() => setCurrentTabs("SERVICES")}
               type={currentTabs === "SERVICES" && "primary"}
+              classes="text-lg"
             >
               Services
             </Button>
             <Button
               onClick={() => setCurrentTabs("ABOUT")}
               type={currentTabs === "ABOUT" && "primary"}
+              classes="text-lg"
             >
               About
             </Button>
             <Button
               onClick={() => setCurrentTabs("SOCIAL")}
               type={currentTabs === "SOCIAL" && "primary"}
+              classes="text-lg"
             >
               Social
             </Button>
             <Button
               onClick={() => setCurrentTabs("RESUME")}
               type={currentTabs === "RESUME" && "primary"}
+              classes="text-lg"
             >
               Resume
             </Button>
