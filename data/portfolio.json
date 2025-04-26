@@ -53,8 +53,8 @@
             "id": "2",
             "title": "Pantry Zine",
             "description": "A zine designed for the UC Davis Pantry to promote food security resources on campus",
-            "imageSrc": "/images/project2/Front Cover.jpeg",
-            "workCardImageSrc": "/images/project2/Front Cover.jpeg",
+            "imageSrc": "/images/project2/thumbnail.jpeg",
+            "workCardImageSrc": "/images/project2/thumbnail.jpeg",
             "url": "",
             "role": "Graphic Designer",
             "techStack": [
@@ -73,81 +73,81 @@
                     "description": "A complete walkthrough of the zine's content and design",
                     "images": [
                         {
-                            "url": "/images/project2/Page 1.png",
+                            "url": "/images/project2/book1/Page 1.png",
                             "caption": "Page 1"
                         },
                         {
-                            "url": "/images/project2/Page 2.png,/images/project2/Page 3.png",
+                            "url": "/images/project2/book1/Page 2.png,/images/project2/book1/Page 3.png",
                             "caption": "Pages 2-3 Spread"
                         },
                         {
-                            "url": "/images/project2/Page 4.png,/images/project2/Page 5.png",
+                            "url": "/images/project2/book1/Page 4.png,/images/project2/book1/Page 5.png",
                             "caption": "Pages 4-5 Spread"
                         },
                         {
-                            "url": "/images/project2/Page 6.png,/images/project2/Page 7.png",
+                            "url": "/images/project2/book1/Page 6.png,/images/project2/book1/Page 7.png",
                             "caption": "Pages 6-7 Spread"
                         },
                         {
-                            "url": "/images/project2/Page 8.png,/images/project2/Page 9.png",
+                            "url": "/images/project2/book1/Page 8.png,/images/project2/book1/Page 9.png",
                             "caption": "Pages 8-9 Spread"
                         },
                         {
-                            "url": "/images/project2/Page 10.png,/images/project2/Page 11.png",
+                            "url": "/images/project2/book1/Page 10.png,/images/project2/book1/Page 11.png",
                             "caption": "Pages 10-11 Spread"
                         },
                         {
-                            "url": "/images/project2/Page 12.png,/images/project2/Page 13.png",
+                            "url": "/images/project2/book1/Page 12.png,/images/project2/book1/Page 13.png",
                             "caption": "Pages 12-13 Spread"
                         },
                         {
-                            "url": "/images/project2/Page 14.png,/images/project2/Page 15.png",
+                            "url": "/images/project2/book1/Page 14.png,/images/project2/book1/Page 15.png",
                             "caption": "Pages 14-15 Spread"
                         },
                         {
-                            "url": "/images/project2/Page 16.png",
+                            "url": "/images/project2/book1/Page 16.png",
                             "caption": "Back Cover"
                         }
                     ]
                 },
                 {
                     "title": "Pantry Zine Second Edition",
-                    "description": "An updated version of the zine with additional content and refined design",
+                    "description": "An updated version of the Pantry zine with additional content and refined design",
                     "images": [
                         {
-                            "url": "/images/project2/Book2/1.png",
+                            "url": "/images/project2/book2/1.png",
                             "caption": "Cover"
                         },
                         {
-                            "url": "/images/project2/Book2/2.png,/images/project2/Book2/3.png",
+                            "url": "/images/project2/book2/2.png,/images/project2/book2/3.png",
                             "caption": "Pages 2-3 Spread"
                         },
                         {
-                            "url": "/images/project2/Book2/4.png,/images/project2/Book2/5.png",
+                            "url": "/images/project2/book2/4.png,/images/project2/book2/5.png",
                             "caption": "Pages 4-5 Spread"
                         },
                         {
-                            "url": "/images/project2/Book2/6.png,/images/project2/Book2/7.png",
+                            "url": "/images/project2/book2/6.png,/images/project2/book2/7.png",
                             "caption": "Pages 6-7 Spread"
                         },
                         {
-                            "url": "/images/project2/Book2/8.png,/images/project2/Book2/9.png",
+                            "url": "/images/project2/book2/8.png,/images/project2/book2/9.png",
                             "caption": "Pages 8-9 Spread"
                         },
                         {
-                            "url": "/images/project2/Book2/10.png,/images/project2/Book2/11.png",
+                            "url": "/images/project2/book2/10.png,/images/project2/book2/11.png",
                             "caption": "Pages 10-11 Spread"
                         },
                         {
-                            "url": "/images/project2/Book2/12.png,/images/project2/Book2/13.png",
+                            "url": "/images/project2/book2/12.png,/images/project2/book2/13.png",
                             "caption": "Pages 12-13 Spread"
                         },
                         {
-                            "url": "/images/project2/Book2/14.png,/images/project2/Book2/15.png",
+                            "url": "/images/project2/book2/14.png,/images/project2/book2/15.png",
                             "caption": "Pages 14-15 Spread"
                         },
                         {
-                            "url": "/images/project2/Book2/16.png",
+                            "url": "/images/project2/book2/16.png",
                             "caption": "Back Cover"
                         }
                     ]
