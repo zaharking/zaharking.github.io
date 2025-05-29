@@ -6,7 +6,7 @@ import Button from "../Button";
 // Local Data
 import data from "../../data/portfolio.json";
 
-const Header = ({ handleWorkScroll, handleAboutScroll }) => {
+const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
   const router = useRouter();
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
@@ -16,6 +16,25 @@ const Header = ({ handleWorkScroll, handleAboutScroll }) => {
   useEffect(() => {
     setMounted(true);
   }, []);
+
+  // Handle navigation for Work and About buttons
+  const handleWorkClick = () => {
+    if (handleWorkScroll) {
+      handleWorkScroll();
+    } else {
+      // Navigate to home page and scroll to work section
+      router.push('/#work');
+    }
+  };
+
+  const handleAboutClick = () => {
+    if (handleAboutScroll) {
+      handleAboutScroll();
+    } else {
+      // Navigate to home page and scroll to about section
+      router.push('/#about');
+    }
+  };
 
   return (
     <>
@@ -70,8 +89,8 @@ const Header = ({ handleWorkScroll, handleAboutScroll }) => {
               } shadow-md rounded-md`}
             >
               <div className="grid grid-cols-1">
-                <Button onClick={handleWorkScroll}>Work</Button>
-                <Button onClick={handleAboutScroll}>About</Button>
+                <Button onClick={handleWorkClick}>Work</Button>
+                <Button onClick={handleAboutClick}>About</Button>
                 {showResume && (
                   <Button
                     onClick={() => router.push("/resume")}
@@ -102,8 +121,8 @@ const Header = ({ handleWorkScroll, handleAboutScroll }) => {
           {name}
         </h1>
         <div className="flex">
-          <Button onClick={handleWorkScroll}>Work</Button>
-          <Button onClick={handleAboutScroll}>About</Button>
+          <Button onClick={handleWorkClick}>Work</Button>
+          <Button onClick={handleAboutClick}>About</Button>
           {showResume && (
             <Button
               onClick={() => router.push("/resume")}
@@ -112,7 +131,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll }) => {
               Resume
             </Button>
           )}
-          <Button 
+          <Button
             onClick={() => window.open(data.socials.find(s => s.title === "Email")?.link || "mailto:default@example.com")}
           >
             Contact

@@ -1,4 +1,5 @@
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
+import { useRouter } from "next/router";
 import Header from "../components/Header";
 import ServiceCard from "../components/ServiceCard";
 import Socials from "../components/Socials";
@@ -15,6 +16,8 @@ import Cursor from "../components/Cursor";
 import data from "../data/portfolio.json";
 
 export default function Home() {
+  const router = useRouter();
+
   // Ref
   const workRef = useRef();
   const aboutRef = useRef();
@@ -47,6 +50,26 @@ export default function Home() {
       { y: 0, x: 0, transform: "scale(1)" }
     );
   }, []);
+
+  // Handle hash navigation when coming from other pages
+  useEffect(() => {
+    const handleHashNavigation = () => {
+      const hash = router.asPath.split('#')[1];
+      if (hash === 'work' && workRef.current) {
+        setTimeout(() => {
+          workRef.current.scrollIntoView({ behavior: 'smooth' });
+        }, 100);
+      } else if (hash === 'about' && aboutRef.current) {
+        setTimeout(() => {
+          aboutRef.current.scrollIntoView({ behavior: 'smooth' });
+        }, 100);
+      }
+    };
+
+    if (router.isReady) {
+      handleHashNavigation();
+    }
+  }, [router.isReady, router.asPath]);
 
   return (
     <div className={`relative ${data.showCursor && "cursor-none"}`}>
@@ -93,7 +116,7 @@ export default function Home() {
 
           <Socials className="mt-2 laptop:mt-5 flex justify-center" />
         </div>
-        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
+        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef} id="work">
           <h1 className="text-2xl text-bold p-2 laptop:p-0">Work</h1>
 
           <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4">
@@ -133,7 +156,7 @@ export default function Home() {
             </Link>
           </div>
         )}
-        <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
+        <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef} id="about">
           <h1 className="text-2xl text-bold p-2 laptop:p-0">About</h1>
           <p className="mt-5 p-2 laptop:p-0 text-xl laptop:text-3xl w-full laptop:w-3/5">
             {data.aboutpara}
