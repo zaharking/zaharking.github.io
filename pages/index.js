@@ -79,6 +79,7 @@ export default function Home() {
       </Head>
 
       <div className="gradient-circle"></div>
+      <div className="gradient-overlay"></div>
       <div className="gradient-circle-bottom"></div>
 
       <div className="container mx-auto mb-10">

@@ -13,18 +13,36 @@ body {
 }
 
 .gradient-circle {
-  position: absolute;
+  position: fixed;
   pointer-events: none;
-  z-index: 100;
-  top: -30px;
-  height: 40px;
+  z-index: 5;
+  top: -20px;
+  height: 60px;
   width: 100vw;
-  opacity: 0.5;
-  filter: blur(40px);
-  background: radial-gradient(
-    circle,
-    rgba(248, 107, 223, 1) 0%,
+  opacity: 0.3;
+  filter: blur(30px);
+  background: linear-gradient(
+    90deg,
+    rgba(248, 107, 223, 0.8) 0%,
+    rgba(177, 107, 248, 0.9) 25%,
+    rgba(107, 177, 248, 0.9) 75%,
     rgba(107, 107, 248, 0.8) 100%
+  );
+}
+
+.gradient-overlay {
+  position: fixed;
+  pointer-events: none;
+  z-index: 6;
+  top: 0;
+  height: 100px;
+  width: 100vw;
+  opacity: 0.15;
+  background: linear-gradient(
+    180deg,
+    rgba(248, 107, 223, 0.4) 0%,
+    rgba(177, 107, 248, 0.3) 50%,
+    transparent 100%
   );
 }
 .gradient-circle-bottom {
@@ -59,8 +77,8 @@ body {
   border-radius: inherit;
 }
 
-/* 
-* Prevents issues when the parent creates a 
+/*
+* Prevents issues when the parent creates a
 * stacking context. (For example, using the transform
 * property )
 */

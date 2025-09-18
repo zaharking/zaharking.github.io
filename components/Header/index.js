@@ -38,10 +38,13 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
 
   return (
     <>
-      <Popover className="block tablet:hidden mt-5">
+      <Popover className="block tablet:hidden mt-5 sticky top-0 z-20 w-full">
         {({ open }) => (
           <>
-            <div className="flex items-center justify-between p-2 laptop:p-0">
+            <div className={`${
+              theme === "light" ? "bg-white/20 backdrop-blur-md" : "bg-black/20 backdrop-blur-md"
+            } w-full py-3`}>
+              <div className="container mx-auto flex items-center justify-between px-4">
               <h1
                 onClick={() => router.push("/")}
                 className="font-medium text-xl laptop:text-2xl p-2 laptop:p-0 link"
@@ -83,6 +86,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 </Popover.Button>
               </div>
             </div>
+            </div>
             <Popover.Panel
               className={`absolute right-0 z-10 w-11/12 p-4 ${
                 theme === "dark" ? "bg-slate-800" : "bg-white"
@@ -110,17 +114,18 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
         )}
       </Popover>
       <div
-        className={`mt-10 hidden flex-row items-center justify-between sticky ${
-          theme === "light" && "bg-white"
-        } dark:text-white top-0 z-10 tablet:flex`}
+        className={`mt-10 hidden sticky ${
+          theme === "light" ? "bg-white/20 backdrop-blur-md" : "bg-black/20 backdrop-blur-md"
+        } dark:text-white top-0 z-20 tablet:flex py-3 w-full`}
       >
-        <h1
-          onClick={() => router.push("/")}
-          className="font-medium text-xl laptop:text-2xl cursor-pointer mob:p-2 laptop:p-0"
-        >
-          {name}
-        </h1>
-        <div className="flex">
+        <div className="container mx-auto flex flex-row items-center justify-between px-4">
+          <h1
+            onClick={() => router.push("/")}
+            className="font-medium text-xl laptop:text-2xl cursor-pointer mob:p-2 laptop:p-0"
+          >
+            {name}
+          </h1>
+          <div className="flex">
           <Button onClick={handleWorkClick}>Work</Button>
           <Button onClick={handleAboutClick}>About</Button>
           {showResume && (
@@ -147,6 +152,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               />
             </Button>
           )}
+          </div>
         </div>
       </div>
     </>

@@ -12,18 +12,18 @@ import ImageCarousel from "../../components/ImageCarousel";
 // Helper function to render text and image placeholders
 const RenderContentWithImages = ({ content, projectId }) => {
   if (!content) return null;
-  
+
   // First, handle the markdown image format ![alt](/path)
   const markdownImageRegex = /!\[(.*?)\]\((\/images\/project\d+\/[^)]+)\)/g;
   // Then handle the placeholder format [[Image: filename.ext]]
   const placeholderRegex = /\[\[Image: (.*?)\]\]/g;
-  
+
   // Check if content contains markdown images
   if (content.match(markdownImageRegex)) {
     const parts = [];
     let lastIndex = 0;
     let match;
-    
+
     // Replace markdown images while preserving text between them
     while ((match = markdownImageRegex.exec(content)) !== null) {
       // Add the text before the image
@@ -33,17 +33,17 @@ const RenderContentWithImages = ({ content, projectId }) => {
           content: content.slice(lastIndex, match.index)
         });
       }
-      
+
       // Add the image
       parts.push({
         type: 'image',
         alt: match[1] || 'Project image',
         src: match[2]
       });
-      
+
       lastIndex = match.index + match[0].length;
     }
-    
+
     // Add any remaining text after the last image
     if (lastIndex < content.length) {
       parts.push({
@@ -51,7 +51,7 @@ const RenderContentWithImages = ({ content, projectId }) => {
         content: content.slice(lastIndex)
       });
     }
-    
+
     return (
       <>
         {parts.map((part, index) => (
@@ -74,11 +74,11 @@ const RenderContentWithImages = ({ content, projectId }) => {
         ))}
       </>
     );
-  } 
+  }
   // Fall back to the original placeholder parsing if no markdown images are found
   else {
     const parts = content.split(placeholderRegex);
-    
+
     return parts.map((part, index) => {
       // Even indices are text, odd indices are image filenames captured by regex
       if (index % 2 === 0) {
@@ -114,7 +114,7 @@ export default function ProjectPage() {
   const router = useRouter();
   const { id } = router.query;
   const project = data.projects.find((p) => p.id === id);
-  
+
   // Refs for animations
   const titleRef = useRef();
   const descriptionRef = useRef();
@@ -139,11 +139,12 @@ export default function ProjectPage() {
       </Head>
 
       <div className="gradient-circle"></div>
+      <div className="gradient-overlay"></div>
       <div className="gradient-circle-bottom"></div>
 
       <div className="container mx-auto mb-10">
         <Header />
-        
+
         {/* Hero Section */}
         <div className="mt-20 flex justify-center">
           <div className="relative w-full max-w-[1200px] rounded-lg overflow-hidden">
@@ -330,9 +331,9 @@ export default function ProjectPage() {
           {project.carouselGroups && project.carouselGroups.length > 0 && (
             <div className="mb-8">
               <h2 className="text-3xl font-semibold mb-6 dark:text-white border-b pb-2">Project Gallery</h2>
-              
+
               {project.carouselGroups.map((group, index) => (
-                <ImageCarousel 
+                <ImageCarousel
                   key={index}
                   images={group.images}
                   title={group.title}
@@ -347,4 +348,4 @@ export default function ProjectPage() {
       </div>
     </div>
   );
-} 
+}

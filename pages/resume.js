@@ -30,6 +30,11 @@ const Resume = () => {
         </div>
       )}
       {data.showCursor && <Cursor />}
+
+      <div className="gradient-circle"></div>
+      <div className="gradient-overlay"></div>
+      <div className="gradient-circle-bottom"></div>
+
       <div
         className={`container mx-auto mb-10 ${
           data.showCursor && "cursor-none"
@@ -43,7 +48,7 @@ const Resume = () => {
             >
               <h1 className="text-4xl font-bold dark:text-white">{data.name}</h1>
               <h2 className="text-xl mt-5 dark:text-gray-200">{data.resume.tagline}</h2>
-              
+
               {data.resume.contact && (
                 <div className="mt-5 flex flex-col md:flex-row gap-4 md:gap-8 text-lg">
                   {data.resume.contact.linkedin && (
@@ -160,12 +165,12 @@ const Resume = () => {
                   </div>
                 </div>
               )}
-              
+
               {data.resume.resumeLink && (
                 <div className="mt-14 flex justify-center">
-                  <a 
-                    href={data.resume.resumeLink} 
-                    target="_blank" 
+                  <a
+                    href={data.resume.resumeLink}
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="px-7 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition duration-300 flex items-center"
                   >
